@@ -1,0 +1,252 @@
+[
+  {
+    "res_id": 1024,
+    "num_animations": 1,
+    "total_seq_frames": 1,
+    "num_composite_frames": 1,
+    "total_parts": 15,
+    "total_boxes": 0,
+    "num_durations": 1,
+    "bytes_consumed": 65
+  },
+  {
+    "res_id": 1025,
+    "num_animations": 5,
+    "total_seq_frames": 16,
+    "num_composite_frames": 19,
+    "total_parts": 1425,
+    "total_boxes": 0,
+    "num_durations": 3,
+    "bytes_consumed": 6438
+  },
+  {
+    "res_id": 1026,
+    "num_animations": 2,
+    "total_seq_frames": 2,
+    "num_composite_frames": 2,
+    "total_parts": 21,
+    "total_boxes": 0,
+    "num_durations": 1,
+    "bytes_consumed": 93
+  },
+  {
+    "res_id": 1027,
+    "num_animations": 11,
+    "total_seq_frames": 23,
+    "num_composite_frames": 18,
+    "total_parts": 110,
+    "total_boxes": 0,
+    "num_durations": 5,
+    "bytes_consumed": 524
+  },
+  {
+    "res_id": 2048,
+    "num_animations": 8,
+    "total_seq_frames": 13,
+    "num_composite_frames": 6,
+    "total_parts": 125,
+    "total_boxes": 0,
+    "num_durations": 2,
+    "bytes_consumed": 496
+  },
+  {
+    "res_id": 2049,
+    "num_animations": 40,
+    "total_seq_frames": 135,
+    "num_composite_frames": 63,
+    "total_parts": 2677,
+    "total_boxes": 0,
+    "num_durations": 7,
+    "bytes_consumed": 9903
+  },
+  {
+    "res_id": 2050,
+    "num_animations": 8,
+    "total_seq_frames": 14,
+    "num_composite_frames": 5,
+    "total_parts": 35,
+    "total_boxes": 0,
+    "num_durations": 4,
+    "bytes_consumed": 209
+  },
+  {
+    "res_id": 3072,
+    "num_animations": 37,
+    "total_seq_frames": 43,
+    "num_composite_frames": 21,
+    "total_parts": 410,
+    "total_boxes": 0,
+    "num_durations": 2,
+    "bytes_consumed": 1630
+  },
+  {
+    "res_id": 3073,
+    "num_animations": 235,
+    "total_seq_frames": 238,
+    "num_composite_frames": 221,
+    "total_parts": 1313,
+    "total_boxes": 0,
+    "num_durations": 1,
+    "bytes_consumed": 6270
+  },
+  {
+    "res_id": 3074,
+    "num_animations": 25,
+    "total_seq_frames": 107,
+    "num_composite_frames": 80,
+    "total_parts": 764,
+    "total_boxes": 0,
+    "num_durations": 6,
+    "bytes_consumed": 3590
+  },
+  {
+    "res_id": 4096,
+    "num_animations": 28,
+    "total_seq_frames": 245,
+    "num_composite_frames": 189,
+    "total_parts": 3714,
+    "total_boxes": 336,
+    "num_durations": 21,
+    "bytes_consumed": 15297
+  },
+  {
+    "res_id": 5120,
+    "num_animations": 12,
+    "total_seq_frames": 20,
+    "num_composite_frames": 12,
+    "total_parts": 96,
+    "total_boxes": 0,
+    "num_durations": 2,
+    "bytes_consumed": 449
+  },
+  {
+    "res_id": 5121,
+    "num_animations": 22,
+    "total_seq_frames": 119,
+    "num_composite_frames": 89,
+    "total_parts": 1412,
+    "total_boxes": 19,
+    "num_durations": 8,
+    "bytes_consumed": 5431
+  },
+  {
+    "res_id": 5122,
+    "num_animations": 28,
+    "total_seq_frames": 102,
+    "num_composite_frames": 74,
+    "total_parts": 776,
+    "total_boxes": 7,
+    "num_durations": 8,
+    "bytes_consumed": 3186
+  },
+  {
+    "res_id": 6144,
+    "num_animations": 9,
+    "total_seq_frames": 55,
+    "num_composite_frames": 3,
+    "total_parts": 32,
+    "total_boxes": 0,
+    "num_durations": 7,
+    "bytes_consumed": 368
+  },
+  {
+    "res_id": 6145,
+    "num_animations": 20,
+    "total_seq_frames": 204,
+    "num_composite_frames": 151,
+    "total_parts": 2449,
+    "total_boxes": 125,
+    "num_durations": 18,
+    "bytes_consumed": 11252
+  },
+  {
+    "res_id": 7168,
+    "num_animations": 32,
+    "total_seq_frames": 257,
+    "num_composite_frames": 142,
+    "total_parts": 1931,
+    "total_boxes": 0,
+    "num_durations": 10,
+    "bytes_consumed": 7669
+  },
+  {
+    "res_id": 8192,
+    "num_animations": 2,
+    "total_seq_frames": 10,
+    "num_composite_frames": 9,
+    "total_parts": 23,
+    "total_boxes": 0,
+    "num_durations": 5,
+    "bytes_consumed": 151
+  },
+  {
+    "res_id": 13312,
+    "num_animations": 17,
+    "total_seq_frames": 206,
+    "num_composite_frames": 139,
+    "total_parts": 5256,
+    "total_boxes": 120,
+    "num_durations": 20,
+    "bytes_consumed": 19077
+  },
+  {
+    "res_id": 14336,
+    "num_animations": 18,
+    "total_seq_frames": 165,
+    "num_composite_frames": 107,
+    "total_parts": 2628,
+    "total_boxes": 109,
+    "num_durations": 23,
+    "bytes_consumed": 10082
+  },
+  {
+    "res_id": 15360,
+    "num_animations": 19,
+    "total_seq_frames": 173,
+    "num_composite_frames": 132,
+    "total_parts": 4392,
+    "total_boxes": 131,
+    "num_durations": 20,
+    "bytes_consumed": 16116
+  },
+  {
+    "res_id": 16384,
+    "num_animations": 15,
+    "total_seq_frames": 120,
+    "num_composite_frames": 85,
+    "total_parts": 1494,
+    "total_boxes": 92,
+    "num_durations": 24,
+    "bytes_consumed": 6063
+  },
+  {
+    "res_id": 17408,
+    "num_animations": 15,
+    "total_seq_frames": 138,
+    "num_composite_frames": 99,
+    "total_parts": 4135,
+    "total_boxes": 81,
+    "num_durations": 18,
+    "bytes_consumed": 14683
+  },
+  {
+    "res_id": 18432,
+    "num_animations": 28,
+    "total_seq_frames": 176,
+    "num_composite_frames": 117,
+    "total_parts": 2499,
+    "total_boxes": 111,
+    "num_durations": 16,
+    "bytes_consumed": 9802
+  },
+  {
+    "res_id": 28672,
+    "num_animations": 122,
+    "total_seq_frames": 1051,
+    "num_composite_frames": 699,
+    "total_parts": 15019,
+    "total_boxes": 189,
+    "num_durations": 31,
+    "bytes_consumed": 59675
+  }
+]

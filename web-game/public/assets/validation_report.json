@@ -1,0 +1,80 @@
+{
+  "validation_passed": true,
+  "error_count": 0,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "rp_containers_verified": 31,
+    "rp_resources_verified": 197,
+    "standalone_icon_verified": 1,
+    "total_assets_verified": 198,
+    "png_files_validated": 92,
+    "base_pngs": 34,
+    "palette_swapped_pngs": 57,
+    "standalone_icon_png": 1,
+    "palettes_validated": 75,
+    "active_plte_swaps": 57,
+    "fire_rgb_palettes": 1,
+    "unused_orphan_plte_palettes": 17,
+    "slice_tables_validated": 31,
+    "total_sprite_slices_checked": 2477,
+    "bitmap_fonts_validated": 3,
+    "total_font_glyphs_checked": 338,
+    "animation_banks_validated": {
+      "banks": 25,
+      "sequences": 759,
+      "keyframes": 3633,
+      "comp_frames": 2483,
+      "parts": 52751,
+      "boxes": 1320
+    },
+    "levels_validated": {
+      "levels": 11,
+      "total_cells": 74076,
+      "total_groups": 257,
+      "total_instances": 9614
+    },
+    "string_tables_validated": 6,
+    "total_localized_strings": 1758,
+    "menu_state_tables_validated": 1,
+    "wav_files_validated": 10,
+    "midi_files_validated": 1
+  },
+  "unresolved_or_corrupted_resources": [],
+  "unused_original_resources_decoded": {
+    "unused_orphan_palettes_rp5": [
+      5135,
+      5136,
+      5137,
+      5138,
+      5139,
+      5140,
+      5141
+    ],
+    "unused_orphan_palettes_rp7": [
+      7171,
+      7172,
+      7173,
+      7174,
+      7175,
+      7176,
+      7177,
+      7178,
+      7179,
+      7180
+    ],
+    "unused_240x320_tileset_slice_table_rp2": [
+      2054
+    ],
+    "recoverable_unused_wav_sfx_rp1": [
+      1054,
+      1055,
+      1056,
+      1057,
+      1058,
+      1059,
+      1060,
+      1061
+    ]
+  }
+}

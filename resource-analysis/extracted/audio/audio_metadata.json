@@ -1,0 +1,187 @@
+[
+  {
+    "res_id": 1054,
+    "slug": "sfx_01_blade_slash_1",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 44100,
+    "num_frames": 20828,
+    "duration_sec": 0.4723,
+    "compression_type": "NONE",
+    "file_size": 41700
+  },
+  {
+    "res_id": 1055,
+    "slug": "sfx_02_blade_slash_2",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 44100,
+    "num_frames": 20762,
+    "duration_sec": 0.4708,
+    "compression_type": "NONE",
+    "file_size": 41568
+  },
+  {
+    "res_id": 1056,
+    "slug": "sfx_03_heavy_impact",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 44100,
+    "num_frames": 20762,
+    "duration_sec": 0.4708,
+    "compression_type": "NONE",
+    "file_size": 41568
+  },
+  {
+    "res_id": 1057,
+    "slug": "sfx_04_flesh_hit",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 44100,
+    "num_frames": 20762,
+    "duration_sec": 0.4708,
+    "compression_type": "NONE",
+    "file_size": 41568
+  },
+  {
+    "res_id": 1058,
+    "slug": "sfx_05_damage_grunt",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 8000,
+    "num_frames": 3426,
+    "duration_sec": 0.4283,
+    "compression_type": "NONE",
+    "file_size": 6896
+  },
+  {
+    "res_id": 1059,
+    "slug": "sfx_06_magic_orb_pickup",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 8000,
+    "num_frames": 3227,
+    "duration_sec": 0.4034,
+    "compression_type": "NONE",
+    "file_size": 6498
+  },
+  {
+    "res_id": 1060,
+    "slug": "sfx_07_menu_cursor_tick",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 8000,
+    "num_frames": 1271,
+    "duration_sec": 0.1589,
+    "compression_type": "NONE",
+    "file_size": 2586
+  },
+  {
+    "res_id": 1061,
+    "slug": "sfx_08_menu_confirm_block",
+    "usage_status": "RECOVERABLE_UNUSED_SLOT",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 8000,
+    "num_frames": 1506,
+    "duration_sec": 0.1883,
+    "compression_type": "NONE",
+    "file_size": 3056
+  },
+  {
+    "res_id": 1062,
+    "slug": "sfx_09_qte_finisher_fanfare",
+    "usage_status": "ACTIVE_SLOT_2",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 44100,
+    "num_frames": 35314,
+    "duration_sec": 0.8008,
+    "compression_type": "NONE",
+    "file_size": 70672
+  },
+  {
+    "res_id": 1063,
+    "slug": "music_00_title_theme",
+    "usage_status": "ACTIVE_SLOT_0",
+    "format": "SMF_TYPE_1",
+    "num_tracks": 11,
+    "ppqn_division": 960,
+    "tracks": [
+      {
+        "track_index": 0,
+        "byte_length": 76
+      },
+      {
+        "track_index": 1,
+        "byte_length": 35
+      },
+      {
+        "track_index": 2,
+        "byte_length": 110
+      },
+      {
+        "track_index": 3,
+        "byte_length": 331
+      },
+      {
+        "track_index": 4,
+        "byte_length": 767
+      },
+      {
+        "track_index": 5,
+        "byte_length": 331
+      },
+      {
+        "track_index": 6,
+        "byte_length": 481
+      },
+      {
+        "track_index": 7,
+        "byte_length": 30
+      },
+      {
+        "track_index": 8,
+        "byte_length": 541
+      },
+      {
+        "track_index": 9,
+        "byte_length": 527
+      },
+      {
+        "track_index": 10,
+        "byte_length": 2943
+      }
+    ],
+    "file_size": 6274
+  },
+  {
+    "res_id": 1064,
+    "slug": "sfx_10_level_intro_horn",
+    "usage_status": "ACTIVE_SLOT_1",
+    "format": "WAV_PCM",
+    "channels": 1,
+    "bit_depth": 16,
+    "sample_rate_hz": 8000,
+    "num_frames": 14048,
+    "duration_sec": 1.756,
+    "compression_type": "NONE",
+    "file_size": 28226
+  }
+]

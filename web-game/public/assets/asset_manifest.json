@@ -1,0 +1,3712 @@
+{
+  "game": "God of War: Betrayal (2007 J2ME)",
+  "total_rp_containers": 31,
+  "total_rp_entries": 197,
+  "standalone_root_assets": 1,
+  "total_manifest_items": 198,
+  "total_uncompressed_rp_payload_bytes": 847455,
+  "packs": [
+    {
+      "pack_id": 1,
+      "pack_name": "RP1",
+      "file_size": 332738,
+      "header_flags": 65,
+      "size_width_bytes": 4,
+      "entry_count": 41,
+      "payload_size": 332526
+    },
+    {
+      "pack_id": 2,
+      "pack_name": "RP2",
+      "file_size": 35885,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 23,
+      "payload_size": 35809
+    },
+    {
+      "pack_id": 3,
+      "pack_name": "RP3",
+      "file_size": 35468,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 18,
+      "payload_size": 35407
+    },
+    {
+      "pack_id": 4,
+      "pack_name": "RP4",
+      "file_size": 18344,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 6,
+      "payload_size": 18319
+    },
+    {
+      "pack_id": 5,
+      "pack_name": "RP5",
+      "file_size": 22232,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 25,
+      "payload_size": 22150
+    },
+    {
+      "pack_id": 6,
+      "pack_name": "RP6",
+      "file_size": 18140,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 12,
+      "payload_size": 18097
+    },
+    {
+      "pack_id": 7,
+      "pack_name": "RP7",
+      "file_size": 8475,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 13,
+      "payload_size": 8429
+    },
+    {
+      "pack_id": 8,
+      "pack_name": "RP8",
+      "file_size": 10775,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 3,
+      "payload_size": 10759
+    },
+    {
+      "pack_id": 9,
+      "pack_name": "RP9",
+      "file_size": 16932,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 2,
+      "payload_size": 16919
+    },
+    {
+      "pack_id": 10,
+      "pack_name": "RP10",
+      "file_size": 11649,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 11639
+    },
+    {
+      "pack_id": 12,
+      "pack_name": "RP12",
+      "file_size": 12671,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 12661
+    },
+    {
+      "pack_id": 13,
+      "pack_name": "RP13",
+      "file_size": 26242,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 6,
+      "payload_size": 26217
+    },
+    {
+      "pack_id": 14,
+      "pack_name": "RP14",
+      "file_size": 15438,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 3,
+      "payload_size": 15422
+    },
+    {
+      "pack_id": 15,
+      "pack_name": "RP15",
+      "file_size": 24585,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 6,
+      "payload_size": 24560
+    },
+    {
+      "pack_id": 16,
+      "pack_name": "RP16",
+      "file_size": 9953,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 6,
+      "payload_size": 9928
+    },
+    {
+      "pack_id": 17,
+      "pack_name": "RP17",
+      "file_size": 20280,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 6,
+      "payload_size": 20255
+    },
+    {
+      "pack_id": 18,
+      "pack_name": "RP18",
+      "file_size": 14996,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 6,
+      "payload_size": 14971
+    },
+    {
+      "pack_id": 19,
+      "pack_name": "RP19",
+      "file_size": 13169,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 13159
+    },
+    {
+      "pack_id": 20,
+      "pack_name": "RP20",
+      "file_size": 10548,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 10538
+    },
+    {
+      "pack_id": 21,
+      "pack_name": "RP21",
+      "file_size": 11359,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 11349
+    },
+    {
+      "pack_id": 22,
+      "pack_name": "RP22",
+      "file_size": 8355,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 8345
+    },
+    {
+      "pack_id": 23,
+      "pack_name": "RP23",
+      "file_size": 10851,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 10841
+    },
+    {
+      "pack_id": 24,
+      "pack_name": "RP24",
+      "file_size": 13583,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 13573
+    },
+    {
+      "pack_id": 25,
+      "pack_name": "RP25",
+      "file_size": 11334,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 11324
+    },
+    {
+      "pack_id": 26,
+      "pack_name": "RP26",
+      "file_size": 9097,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 9087
+    },
+    {
+      "pack_id": 27,
+      "pack_name": "RP27",
+      "file_size": 5142,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 5132
+    },
+    {
+      "pack_id": 28,
+      "pack_name": "RP28",
+      "file_size": 68671,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 6,
+      "payload_size": 68646
+    },
+    {
+      "pack_id": 29,
+      "pack_name": "RP29",
+      "file_size": 13722,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 13712
+    },
+    {
+      "pack_id": 30,
+      "pack_name": "RP30",
+      "file_size": 12441,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 12431
+    },
+    {
+      "pack_id": 32,
+      "pack_name": "RP32",
+      "file_size": 12808,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 12798
+    },
+    {
+      "pack_id": 33,
+      "pack_name": "RP33",
+      "file_size": 12462,
+      "header_flags": 64,
+      "size_width_bytes": 2,
+      "entry_count": 1,
+      "payload_size": 12452
+    }
+  ],
+  "resources": [
+    {
+      "res_id": null,
+      "res_id_hex": "ROOT_ICON",
+      "pack": "JAR_ROOT",
+      "entry_index": null,
+      "type_u8": 253,
+      "type_name": "STANDALONE_PNG_ICON",
+      "original_size": 1785,
+      "raw_path": "i.png",
+      "extracted_paths": [
+        "extracted/images/icon/i.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Standalone MIDlet icon (42x29)"
+    },
+    {
+      "res_id": 1024,
+      "res_id_hex": "0x0400",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 65,
+      "raw_path": "extracted/raw/RP1/res_1024_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_1024.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 1 anims, 1 compFrames, 15 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 1025,
+      "res_id_hex": "0x0401",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 1,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 6438,
+      "raw_path": "extracted/raw/RP1/res_1025_entry_01_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_1025.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 5 anims, 19 compFrames, 1425 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 1026,
+      "res_id_hex": "0x0402",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 2,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 93,
+      "raw_path": "extracted/raw/RP1/res_1026_entry_02_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_1026.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 2 anims, 2 compFrames, 21 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 1027,
+      "res_id_hex": "0x0403",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 3,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 524,
+      "raw_path": "extracted/raw/RP1/res_1027_entry_03_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_1027.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 11 anims, 18 compFrames, 110 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 1028,
+      "res_id_hex": "0x0404",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 4,
+      "type_u8": 255,
+      "type_i8": -1,
+      "type_name": "MENU_STATE_TABLE",
+      "original_size": 128,
+      "raw_path": "extracted/raw/RP1/res_1028_entry_04_type_255.bin",
+      "extracted_paths": [
+        "extracted/menu/menu_1028.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Menu State Table (32 states)"
+    },
+    {
+      "res_id": 1029,
+      "res_id_hex": "0x0405",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 5,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 33,
+      "raw_path": "extracted/raw/RP1/res_1029_entry_05_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1029.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1041 (4 slices, flags=0x87FC)"
+    },
+    {
+      "res_id": 1030,
+      "res_id_hex": "0x0406",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 6,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 15,
+      "raw_path": "extracted/raw/RP1/res_1030_entry_06_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1030.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1042 (1 slices, flags=0x87E4)"
+    },
+    {
+      "res_id": 1031,
+      "res_id_hex": "0x0407",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 7,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 1509,
+      "raw_path": "extracted/raw/RP1/res_1031_entry_07_type_254.bin",
+      "extracted_paths": [
+        "extracted/fonts/font_1031.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Bitmap Font -> PNG 1043 (150 glyphs, height=12px)"
+    },
+    {
+      "res_id": 1032,
+      "res_id_hex": "0x0408",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 8,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 1279,
+      "raw_path": "extracted/raw/RP1/res_1032_entry_08_type_254.bin",
+      "extracted_paths": [
+        "extracted/fonts/font_1032.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Bitmap Font -> PNG 1044 (127 glyphs, height=15px)"
+    },
+    {
+      "res_id": 1033,
+      "res_id_hex": "0x0409",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 9,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 619,
+      "raw_path": "extracted/raw/RP1/res_1033_entry_09_type_254.bin",
+      "extracted_paths": [
+        "extracted/fonts/font_1033.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Bitmap Font -> PNG 1045 (61 glyphs, height=14px)"
+    },
+    {
+      "res_id": 1034,
+      "res_id_hex": "0x040A",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 10,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 105,
+      "raw_path": "extracted/raw/RP1/res_1034_entry_10_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1034.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1046 (16 slices, flags=0x87FC)"
+    },
+    {
+      "res_id": 1035,
+      "res_id_hex": "0x040B",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 11,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 63,
+      "raw_path": "extracted/raw/RP1/res_1035_entry_11_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1035.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1047 (9 slices, flags=0x87FC)"
+    },
+    {
+      "res_id": 1036,
+      "res_id_hex": "0x040C",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 12,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 429,
+      "raw_path": "extracted/raw/RP1/res_1036_entry_12_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1036.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1048 (60 slices, flags=0x87A4)"
+    },
+    {
+      "res_id": 1037,
+      "res_id_hex": "0x040D",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 13,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 21,
+      "raw_path": "extracted/raw/RP1/res_1037_entry_13_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1037.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1049 (2 slices, flags=0x87FC)"
+    },
+    {
+      "res_id": 1038,
+      "res_id_hex": "0x040E",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 14,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 135,
+      "raw_path": "extracted/raw/RP1/res_1038_entry_14_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1038.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1050 (21 slices, flags=0x87FC)"
+    },
+    {
+      "res_id": 1039,
+      "res_id_hex": "0x040F",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 15,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 49,
+      "raw_path": "extracted/raw/RP1/res_1039_entry_15_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1039.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1051 (5 slices, flags=0x879C)"
+    },
+    {
+      "res_id": 1040,
+      "res_id_hex": "0x0410",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 16,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 165,
+      "raw_path": "extracted/raw/RP1/res_1040_entry_16_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_1040.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 1052 (26 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 1041,
+      "res_id_hex": "0x0411",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 17,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 198,
+      "raw_path": "extracted/raw/RP1/res_1041_entry_17_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1041_ui_menu_border.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 5x20 (16 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1042,
+      "res_id_hex": "0x0412",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 18,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 543,
+      "raw_path": "extracted/raw/RP1/res_1042_entry_18_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1042_ui_frame_ornament.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 18x18 (95 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1043,
+      "res_id_hex": "0x0413",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 19,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 3268,
+      "raw_path": "extracted/raw/RP1/res_1043_entry_19_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1043_font_0_primary_ui.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 141x52 (32 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1044,
+      "res_id_hex": "0x0414",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 20,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2604,
+      "raw_path": "extracted/raw/RP1/res_1044_entry_20_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1044_font_1_menu_title.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 84x107 (9 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1045,
+      "res_id_hex": "0x0415",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 21,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2517,
+      "raw_path": "extracted/raw/RP1/res_1045_entry_21_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1045_font_2_hud_numbers.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 67x83 (32 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1046,
+      "res_id_hex": "0x0416",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 22,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 399,
+      "raw_path": "extracted/raw/RP1/res_1046_entry_22_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1046_hud_qte_arrows.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 14x28 (30 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1047,
+      "res_id_hex": "0x0417",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 23,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2652,
+      "raw_path": "extracted/raw/RP1/res_1047_entry_23_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1047_hud_portraits_and_weapon_icons.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 23x91 (256 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1048,
+      "res_id_hex": "0x0418",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 24,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 5322,
+      "raw_path": "extracted/raw/RP1/res_1048_entry_24_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1048_ui_main_menu_logo.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 133x110 (41 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1049,
+      "res_id_hex": "0x0419",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 25,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2437,
+      "raw_path": "extracted/raw/RP1/res_1049_entry_25_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1049_hud_blade_emblem.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 109x70 (41 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1050,
+      "res_id_hex": "0x041A",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 26,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 1519,
+      "raw_path": "extracted/raw/RP1/res_1050_entry_26_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1050_ui_powerup_bars_and_orbs.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 88x41 (16 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1051,
+      "res_id_hex": "0x041B",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 27,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 7084,
+      "raw_path": "extracted/raw/RP1/res_1051_entry_27_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1051_ui_stone_plaque_banner.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 266x75 (96 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1052,
+      "res_id_hex": "0x041C",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 28,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 933,
+      "raw_path": "extracted/raw/RP1/res_1052_entry_28_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/1052_hud_animated_prompts.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 82x21 (32 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 1053,
+      "res_id_hex": "0x041D",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 29,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 768,
+      "raw_path": "extracted/raw/RP1/res_1053_entry_29_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_1053.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "RAW_RGB_FIRE_PALETTE (256 colors, ACTIVE_FIRE_PALETTE)"
+    },
+    {
+      "res_id": 1054,
+      "res_id_hex": "0x041E",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 30,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 41700,
+      "raw_path": "extracted/raw/RP1/res_1054_entry_30_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1054_sfx_01_blade_slash_1.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 44100Hz 16bit (0.4723s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1055,
+      "res_id_hex": "0x041F",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 31,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 41568,
+      "raw_path": "extracted/raw/RP1/res_1055_entry_31_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1055_sfx_02_blade_slash_2.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 44100Hz 16bit (0.4708s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1056,
+      "res_id_hex": "0x0420",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 32,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 41568,
+      "raw_path": "extracted/raw/RP1/res_1056_entry_32_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1056_sfx_03_heavy_impact.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 44100Hz 16bit (0.4708s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1057,
+      "res_id_hex": "0x0421",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 33,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 41568,
+      "raw_path": "extracted/raw/RP1/res_1057_entry_33_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1057_sfx_04_flesh_hit.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 44100Hz 16bit (0.4708s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1058,
+      "res_id_hex": "0x0422",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 34,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 6896,
+      "raw_path": "extracted/raw/RP1/res_1058_entry_34_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1058_sfx_05_damage_grunt.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 8000Hz 16bit (0.4283s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1059,
+      "res_id_hex": "0x0423",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 35,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 6498,
+      "raw_path": "extracted/raw/RP1/res_1059_entry_35_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1059_sfx_06_magic_orb_pickup.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 8000Hz 16bit (0.4034s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1060,
+      "res_id_hex": "0x0424",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 36,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 2586,
+      "raw_path": "extracted/raw/RP1/res_1060_entry_36_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1060_sfx_07_menu_cursor_tick.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 8000Hz 16bit (0.1589s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1061,
+      "res_id_hex": "0x0425",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 37,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 3056,
+      "raw_path": "extracted/raw/RP1/res_1061_entry_37_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1061_sfx_08_menu_confirm_block.wav"
+      ],
+      "status": "DECODED_RECOVERABLE_AUDIO",
+      "notes": "WAV PCM 8000Hz 16bit (0.1883s, RECOVERABLE_UNUSED_SLOT)"
+    },
+    {
+      "res_id": 1062,
+      "res_id_hex": "0x0426",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 38,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 70672,
+      "raw_path": "extracted/raw/RP1/res_1062_entry_38_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1062_sfx_09_qte_finisher_fanfare.wav"
+      ],
+      "status": "DECODED_OK",
+      "notes": "WAV PCM 44100Hz 16bit (0.8008s, ACTIVE_SLOT_2)"
+    },
+    {
+      "res_id": 1063,
+      "res_id_hex": "0x0427",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 39,
+      "type_u8": 0,
+      "type_i8": 0,
+      "type_name": "MIDI_AUDIO",
+      "original_size": 6274,
+      "raw_path": "extracted/raw/RP1/res_1063_entry_39_type_0.bin",
+      "extracted_paths": [
+        "extracted/audio/midi/1063_music_00_title_theme.mid"
+      ],
+      "status": "DECODED_OK",
+      "notes": "MIDI Type 1 (11 tracks, 960 PPQN, ACTIVE_SLOT_0)"
+    },
+    {
+      "res_id": 1064,
+      "res_id_hex": "0x0428",
+      "pack": "RP1",
+      "pack_id": 1,
+      "entry_index": 40,
+      "type_u8": 1,
+      "type_i8": 1,
+      "type_name": "WAV_AUDIO",
+      "original_size": 28226,
+      "raw_path": "extracted/raw/RP1/res_1064_entry_40_type_1.bin",
+      "extracted_paths": [
+        "extracted/audio/wav/1064_sfx_10_level_intro_horn.wav"
+      ],
+      "status": "DECODED_OK",
+      "notes": "WAV PCM 8000Hz 16bit (1.756s, ACTIVE_SLOT_1)"
+    },
+    {
+      "res_id": 2048,
+      "res_id_hex": "0x0800",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 496,
+      "raw_path": "extracted/raw/RP2/res_2048_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_2048.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 8 anims, 6 compFrames, 125 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 2049,
+      "res_id_hex": "0x0801",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 1,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 9903,
+      "raw_path": "extracted/raw/RP2/res_2049_entry_01_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_2049.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 40 anims, 63 compFrames, 2677 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 2050,
+      "res_id_hex": "0x0802",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 2,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 209,
+      "raw_path": "extracted/raw/RP2/res_2050_entry_02_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_2050.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 8 anims, 5 compFrames, 35 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 2051,
+      "res_id_hex": "0x0803",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 3,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 111,
+      "raw_path": "extracted/raw/RP2/res_2051_entry_03_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_2051.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 2055 (17 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 2052,
+      "res_id_hex": "0x0804",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 4,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 429,
+      "raw_path": "extracted/raw/RP2/res_2052_entry_04_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_2052.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 2056 (60 slices, flags=0x07A4)"
+    },
+    {
+      "res_id": 2053,
+      "res_id_hex": "0x0805",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 5,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 105,
+      "raw_path": "extracted/raw/RP2/res_2053_entry_05_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_2053.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 2057 (16 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 2054,
+      "res_id_hex": "0x0806",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 6,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 905,
+      "raw_path": "extracted/raw/RP2/res_2054_entry_06_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_2054.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "Unused 22x22 Tile Slice Table -> PNG 2058 (runtime uses 16x16 grid on PNG 2058)"
+    },
+    {
+      "res_id": 2055,
+      "res_id_hex": "0x0807",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 7,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 1647,
+      "raw_path": "extracted/raw/RP2/res_2055_entry_07_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/2055_props_platforms_and_beams_default.png",
+        "extracted/images/spritesheets/2055_props_platforms_and_beams_pal0_2059.png",
+        "extracted/images/spritesheets/2055_props_platforms_and_beams_pal1_2060.png",
+        "extracted/images/spritesheets/2055_props_platforms_and_beams_pal2_2061.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 55x59 (32 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 2056,
+      "res_id_hex": "0x0808",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 8,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 1555,
+      "raw_path": "extracted/raw/RP2/res_2056_entry_08_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/2056_props_doors_gates_bridges_default.png",
+        "extracted/images/spritesheets/2056_props_doors_gates_bridges_pal0_2062.png",
+        "extracted/images/spritesheets/2056_props_doors_gates_bridges_pal1_2063.png",
+        "extracted/images/spritesheets/2056_props_doors_gates_bridges_pal2_2064.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 39x169 (16 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 2057,
+      "res_id_hex": "0x0809",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 9,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 482,
+      "raw_path": "extracted/raw/RP2/res_2057_entry_09_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/2057_props_levers_and_ropes_default.png",
+        "extracted/images/spritesheets/2057_props_levers_and_ropes_pal0_2065.png",
+        "extracted/images/spritesheets/2057_props_levers_and_ropes_pal1_2066.png",
+        "extracted/images/spritesheets/2057_props_levers_and_ropes_pal2_2067.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 26x35 (12 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 2058,
+      "res_id_hex": "0x080A",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 10,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 17075,
+      "raw_path": "extracted/raw/RP2/res_2058_entry_10_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/tilesets/2058_tileset_master_16x16_default.png",
+        "extracted/images/tilesets/2058_tileset_master_16x16_pal0_2068.png",
+        "extracted/images/tilesets/2058_tileset_master_16x16_pal1_2069.png",
+        "extracted/images/tilesets/2058_tileset_master_16x16_pal2_2070.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 128x256 (256 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 2059,
+      "res_id_hex": "0x080B",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 11,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP2/res_2059_entry_11_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2059.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2060,
+      "res_id_hex": "0x080C",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 12,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP2/res_2060_entry_12_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2060.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2061,
+      "res_id_hex": "0x080D",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 13,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP2/res_2061_entry_13_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2061.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2062,
+      "res_id_hex": "0x080E",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 14,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 52,
+      "raw_path": "extracted/raw/RP2/res_2062_entry_14_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2062.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (16 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2063,
+      "res_id_hex": "0x080F",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 15,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 52,
+      "raw_path": "extracted/raw/RP2/res_2063_entry_15_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2063.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (16 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2064,
+      "res_id_hex": "0x0810",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 16,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 52,
+      "raw_path": "extracted/raw/RP2/res_2064_entry_16_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2064.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (16 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2065,
+      "res_id_hex": "0x0811",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 17,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 40,
+      "raw_path": "extracted/raw/RP2/res_2065_entry_17_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2065.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (12 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2066,
+      "res_id_hex": "0x0812",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 18,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 40,
+      "raw_path": "extracted/raw/RP2/res_2066_entry_18_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2066.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (12 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2067,
+      "res_id_hex": "0x0813",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 19,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 40,
+      "raw_path": "extracted/raw/RP2/res_2067_entry_19_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2067.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (12 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2068,
+      "res_id_hex": "0x0814",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 20,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 772,
+      "raw_path": "extracted/raw/RP2/res_2068_entry_20_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2068.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (256 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2069,
+      "res_id_hex": "0x0815",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 21,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 772,
+      "raw_path": "extracted/raw/RP2/res_2069_entry_21_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2069.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (256 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 2070,
+      "res_id_hex": "0x0816",
+      "pack": "RP2",
+      "pack_id": 2,
+      "entry_index": 22,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 772,
+      "raw_path": "extracted/raw/RP2/res_2070_entry_22_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_2070.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (256 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3072,
+      "res_id_hex": "0x0C00",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 1630,
+      "raw_path": "extracted/raw/RP3/res_3072_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_3072.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 37 anims, 21 compFrames, 410 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 3073,
+      "res_id_hex": "0x0C01",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 1,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 6270,
+      "raw_path": "extracted/raw/RP3/res_3073_entry_01_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_3073.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 235 anims, 221 compFrames, 1313 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 3074,
+      "res_id_hex": "0x0C02",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 2,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 3590,
+      "raw_path": "extracted/raw/RP3/res_3074_entry_02_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_3074.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 25 anims, 80 compFrames, 764 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 3075,
+      "res_id_hex": "0x0C03",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 3,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 243,
+      "raw_path": "extracted/raw/RP3/res_3075_entry_03_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_3075.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 3078 (39 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 3076,
+      "res_id_hex": "0x0C04",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 4,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 2025,
+      "raw_path": "extracted/raw/RP3/res_3076_entry_04_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_3076.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 3079 (224 slices, flags=0x0704)"
+    },
+    {
+      "res_id": 3077,
+      "res_id_hex": "0x0C05",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 5,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 441,
+      "raw_path": "extracted/raw/RP3/res_3077_entry_05_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_3077.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 3080 (54 slices, flags=0x0784)"
+    },
+    {
+      "res_id": 3078,
+      "res_id_hex": "0x0C06",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 6,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2182,
+      "raw_path": "extracted/raw/RP3/res_3078_entry_06_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/3078_props_interactive_objects_default.png",
+        "extracted/images/spritesheets/3078_props_interactive_objects_pal0_3081.png",
+        "extracted/images/spritesheets/3078_props_interactive_objects_pal1_3082.png",
+        "extracted/images/spritesheets/3078_props_interactive_objects_pal2_3083.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 51x109 (32 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 3079,
+      "res_id_hex": "0x0C07",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 7,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 15571,
+      "raw_path": "extracted/raw/RP3/res_3079_entry_07_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/3079_stamps_environment_bg_fg_default.png",
+        "extracted/images/spritesheets/3079_stamps_environment_bg_fg_pal0_3084.png",
+        "extracted/images/spritesheets/3079_stamps_environment_bg_fg_pal1_3085.png",
+        "extracted/images/spritesheets/3079_stamps_environment_bg_fg_pal2_3086.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 299x112 (64 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 3080,
+      "res_id_hex": "0x0C08",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 8,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2213,
+      "raw_path": "extracted/raw/RP3/res_3080_entry_08_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/3080_props_torches_and_hazards_default.png",
+        "extracted/images/spritesheets/3080_props_torches_and_hazards_pal0_3087.png",
+        "extracted/images/spritesheets/3080_props_torches_and_hazards_pal1_3088.png",
+        "extracted/images/spritesheets/3080_props_torches_and_hazards_pal2_3089.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 57x108 (38 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 3081,
+      "res_id_hex": "0x0C09",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 9,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP3/res_3081_entry_09_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3081.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3082,
+      "res_id_hex": "0x0C0A",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 10,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP3/res_3082_entry_10_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3082.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3083,
+      "res_id_hex": "0x0C0B",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 11,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP3/res_3083_entry_11_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3083.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3084,
+      "res_id_hex": "0x0C0C",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 12,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 196,
+      "raw_path": "extracted/raw/RP3/res_3084_entry_12_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3084.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (64 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3085,
+      "res_id_hex": "0x0C0D",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 13,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 196,
+      "raw_path": "extracted/raw/RP3/res_3085_entry_13_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3085.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (64 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3086,
+      "res_id_hex": "0x0C0E",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 14,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 196,
+      "raw_path": "extracted/raw/RP3/res_3086_entry_14_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3086.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (64 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3087,
+      "res_id_hex": "0x0C0F",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 15,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 118,
+      "raw_path": "extracted/raw/RP3/res_3087_entry_15_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3087.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (38 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3088,
+      "res_id_hex": "0x0C10",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 16,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 118,
+      "raw_path": "extracted/raw/RP3/res_3088_entry_16_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3088.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (38 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 3089,
+      "res_id_hex": "0x0C11",
+      "pack": "RP3",
+      "pack_id": 3,
+      "entry_index": 17,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 118,
+      "raw_path": "extracted/raw/RP3/res_3089_entry_17_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_3089.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (38 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 4096,
+      "res_id_hex": "0x1000",
+      "pack": "RP4",
+      "pack_id": 4,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 15297,
+      "raw_path": "extracted/raw/RP4/res_4096_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_4096.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 28 anims, 189 compFrames, 3714 parts, 336 hitboxes"
+    },
+    {
+      "res_id": 4097,
+      "res_id_hex": "0x1001",
+      "pack": "RP4",
+      "pack_id": 4,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 759,
+      "raw_path": "extracted/raw/RP4/res_4097_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_4097.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 4098 (125 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 4098,
+      "res_id_hex": "0x1002",
+      "pack": "RP4",
+      "pack_id": 4,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2062,
+      "raw_path": "extracted/raw/RP4/res_4098_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/4098_char_spartan_and_basic_soldier_default.png",
+        "extracted/images/spritesheets/4098_char_spartan_and_basic_soldier_pal0_4099.png",
+        "extracted/images/spritesheets/4098_char_spartan_and_basic_soldier_pal1_4100.png",
+        "extracted/images/spritesheets/4098_char_spartan_and_basic_soldier_pal2_4101.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 155x33 (21 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 4099,
+      "res_id_hex": "0x1003",
+      "pack": "RP4",
+      "pack_id": 4,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 67,
+      "raw_path": "extracted/raw/RP4/res_4099_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_4099.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (21 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 4100,
+      "res_id_hex": "0x1004",
+      "pack": "RP4",
+      "pack_id": 4,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 67,
+      "raw_path": "extracted/raw/RP4/res_4100_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_4100.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (21 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 4101,
+      "res_id_hex": "0x1005",
+      "pack": "RP4",
+      "pack_id": 4,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 67,
+      "raw_path": "extracted/raw/RP4/res_4101_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_4101.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (21 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5120,
+      "res_id_hex": "0x1400",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 449,
+      "raw_path": "extracted/raw/RP5/res_5120_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_5120.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 12 anims, 12 compFrames, 96 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 5121,
+      "res_id_hex": "0x1401",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 1,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 5431,
+      "raw_path": "extracted/raw/RP5/res_5121_entry_01_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_5121.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 22 anims, 89 compFrames, 1412 parts, 19 hitboxes"
+    },
+    {
+      "res_id": 5122,
+      "res_id_hex": "0x1402",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 2,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 3186,
+      "raw_path": "extracted/raw/RP5/res_5122_entry_02_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_5122.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 28 anims, 74 compFrames, 776 parts, 7 hitboxes"
+    },
+    {
+      "res_id": 5123,
+      "res_id_hex": "0x1403",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 3,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 207,
+      "raw_path": "extracted/raw/RP5/res_5123_entry_03_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_5123.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 5126 (33 slices, flags=0x07FC)"
+    },
+    {
+      "res_id": 5124,
+      "res_id_hex": "0x1404",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 4,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 441,
+      "raw_path": "extracted/raw/RP5/res_5124_entry_04_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_5124.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 5127 (72 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 5125,
+      "res_id_hex": "0x1405",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 5,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 627,
+      "raw_path": "extracted/raw/RP5/res_5125_entry_05_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_5125.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 5128 (103 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 5126,
+      "res_id_hex": "0x1406",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 6,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 1223,
+      "raw_path": "extracted/raw/RP5/res_5126_entry_06_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/5126_vfx_chests_orbs_savebeam_default.png",
+        "extracted/images/spritesheets/5126_vfx_chests_orbs_savebeam_pal0_5129.png",
+        "extracted/images/spritesheets/5126_vfx_chests_orbs_savebeam_pal1_5130.png",
+        "extracted/images/spritesheets/5126_vfx_chests_orbs_savebeam_pal2_5131.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 79x27 (41 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 5127,
+      "res_id_hex": "0x1407",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 7,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 1221,
+      "raw_path": "extracted/raw/RP5/res_5127_entry_07_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/5127_vfx_blade_trails_and_flames_default.png",
+        "extracted/images/spritesheets/5127_vfx_blade_trails_and_flames_pal0_5132.png",
+        "extracted/images/spritesheets/5127_vfx_blade_trails_and_flames_pal1_5133.png",
+        "extracted/images/spritesheets/5127_vfx_blade_trails_and_flames_pal2_5134.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 48x43 (32 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 5128,
+      "res_id_hex": "0x1408",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 8,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 3001,
+      "raw_path": "extracted/raw/RP5/res_5128_entry_08_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/5128_vfx_magic_medusa_and_hades_default.png",
+        "extracted/images/spritesheets/5128_vfx_magic_medusa_and_hades_pal0_5142.png",
+        "extracted/images/spritesheets/5128_vfx_magic_medusa_and_hades_pal1_5143.png",
+        "extracted/images/spritesheets/5128_vfx_magic_medusa_and_hades_pal2_5144.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 218x34 (32 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 5129,
+      "res_id_hex": "0x1409",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 9,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 127,
+      "raw_path": "extracted/raw/RP5/res_5129_entry_09_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5129.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (41 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5130,
+      "res_id_hex": "0x140A",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 10,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 127,
+      "raw_path": "extracted/raw/RP5/res_5130_entry_10_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5130.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (41 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5131,
+      "res_id_hex": "0x140B",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 11,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 127,
+      "raw_path": "extracted/raw/RP5/res_5131_entry_11_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5131.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (41 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5132,
+      "res_id_hex": "0x140C",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 12,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP5/res_5132_entry_12_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5132.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5133,
+      "res_id_hex": "0x140D",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 13,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP5/res_5133_entry_13_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5133.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5134,
+      "res_id_hex": "0x140E",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 14,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP5/res_5134_entry_14_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5134.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5135,
+      "res_id_hex": "0x140F",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 15,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 769,
+      "raw_path": "extracted/raw/RP5/res_5135_entry_15_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5135.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (255 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 5136,
+      "res_id_hex": "0x1410",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 16,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 769,
+      "raw_path": "extracted/raw/RP5/res_5136_entry_16_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5136.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (255 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 5137,
+      "res_id_hex": "0x1411",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 17,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 769,
+      "raw_path": "extracted/raw/RP5/res_5137_entry_17_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5137.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (255 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 5138,
+      "res_id_hex": "0x1412",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 18,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 769,
+      "raw_path": "extracted/raw/RP5/res_5138_entry_18_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5138.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (255 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 5139,
+      "res_id_hex": "0x1413",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 19,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 769,
+      "raw_path": "extracted/raw/RP5/res_5139_entry_19_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5139.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (255 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 5140,
+      "res_id_hex": "0x1414",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 20,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 769,
+      "raw_path": "extracted/raw/RP5/res_5140_entry_20_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5140.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (255 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 5141,
+      "res_id_hex": "0x1415",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 21,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 769,
+      "raw_path": "extracted/raw/RP5/res_5141_entry_21_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5141.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (255 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 5142,
+      "res_id_hex": "0x1416",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 22,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP5/res_5142_entry_22_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5142.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5143,
+      "res_id_hex": "0x1417",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 23,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP5/res_5143_entry_23_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5143.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 5144,
+      "res_id_hex": "0x1418",
+      "pack": "RP5",
+      "pack_id": 5,
+      "entry_index": 24,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP5/res_5144_entry_24_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_5144.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 6144,
+      "res_id_hex": "0x1800",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 368,
+      "raw_path": "extracted/raw/RP6/res_6144_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_6144.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 9 anims, 3 compFrames, 32 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 6145,
+      "res_id_hex": "0x1801",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 1,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 11252,
+      "raw_path": "extracted/raw/RP6/res_6145_entry_01_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_6145.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 20 anims, 151 compFrames, 2449 parts, 125 hitboxes"
+    },
+    {
+      "res_id": 6146,
+      "res_id_hex": "0x1802",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 2,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 147,
+      "raw_path": "extracted/raw/RP6/res_6146_entry_02_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_6146.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 6148 (23 slices, flags=0x07F4)"
+    },
+    {
+      "res_id": 6147,
+      "res_id_hex": "0x1803",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 3,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 321,
+      "raw_path": "extracted/raw/RP6/res_6147_entry_03_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_6147.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 6149 (52 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 6148,
+      "res_id_hex": "0x1804",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 4,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2422,
+      "raw_path": "extracted/raw/RP6/res_6148_entry_04_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/6148_props_pushable_boxes_statues_default.png",
+        "extracted/images/spritesheets/6148_props_pushable_boxes_statues_pal0_6150.png",
+        "extracted/images/spritesheets/6148_props_pushable_boxes_statues_pal1_6151.png",
+        "extracted/images/spritesheets/6148_props_pushable_boxes_statues_pal2_6152.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 37x125 (32 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 6149,
+      "res_id_hex": "0x1805",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 5,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 2987,
+      "raw_path": "extracted/raw/RP6/res_6149_entry_05_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/6149_traps_pendulums_and_undead_default.png",
+        "extracted/images/spritesheets/6149_traps_pendulums_and_undead_pal0_6153.png",
+        "extracted/images/spritesheets/6149_traps_pendulums_and_undead_pal1_6154.png",
+        "extracted/images/spritesheets/6149_traps_pendulums_and_undead_pal2_6155.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 58x103 (32 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 6150,
+      "res_id_hex": "0x1806",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 6,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP6/res_6150_entry_06_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_6150.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 6151,
+      "res_id_hex": "0x1807",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 7,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP6/res_6151_entry_07_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_6151.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 6152,
+      "res_id_hex": "0x1808",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 8,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP6/res_6152_entry_08_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_6152.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 6153,
+      "res_id_hex": "0x1809",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 9,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP6/res_6153_entry_09_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_6153.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 6154,
+      "res_id_hex": "0x180A",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 10,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP6/res_6154_entry_10_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_6154.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 6155,
+      "res_id_hex": "0x180B",
+      "pack": "RP6",
+      "pack_id": 6,
+      "entry_index": 11,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP6/res_6155_entry_11_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_6155.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 7168,
+      "res_id_hex": "0x1C00",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 7669,
+      "raw_path": "extracted/raw/RP7/res_7168_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_7168.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 32 anims, 142 compFrames, 1931 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 7169,
+      "res_id_hex": "0x1C01",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 189,
+      "raw_path": "extracted/raw/RP7/res_7169_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_7169.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 7170 (30 slices, flags=0x87E4)"
+    },
+    {
+      "res_id": 7170,
+      "res_id_hex": "0x1C02",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 261,
+      "raw_path": "extracted/raw/RP7/res_7170_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/7170_vfx_blood_and_debris_particles_default.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 15x18 (16 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 7171,
+      "res_id_hex": "0x1C03",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7171_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7171.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7172,
+      "res_id_hex": "0x1C04",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7172_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7172.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7173,
+      "res_id_hex": "0x1C05",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7173_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7173.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7174,
+      "res_id_hex": "0x1C06",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 6,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7174_entry_06_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7174.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7175,
+      "res_id_hex": "0x1C07",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 7,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7175_entry_07_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7175.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7176,
+      "res_id_hex": "0x1C08",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 8,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7176_entry_08_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7176.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7177,
+      "res_id_hex": "0x1C09",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 9,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7177_entry_09_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7177.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7178,
+      "res_id_hex": "0x1C0A",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 10,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7178_entry_10_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7178.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7179,
+      "res_id_hex": "0x1C0B",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 11,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7179_entry_11_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7179.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 7180,
+      "res_id_hex": "0x1C0C",
+      "pack": "RP7",
+      "pack_id": 7,
+      "entry_index": 12,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 31,
+      "raw_path": "extracted/raw/RP7/res_7180_entry_12_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_7180.json"
+      ],
+      "status": "DECODED_UNUSED_IN_GAME",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (9 colors, UNUSED_ORPHAN_PLTE)"
+    },
+    {
+      "res_id": 8192,
+      "res_id_hex": "0x2000",
+      "pack": "RP8",
+      "pack_id": 8,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 151,
+      "raw_path": "extracted/raw/RP8/res_8192_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_8192.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 2 anims, 9 compFrames, 23 parts, 0 hitboxes"
+    },
+    {
+      "res_id": 8193,
+      "res_id_hex": "0x2001",
+      "pack": "RP8",
+      "pack_id": 8,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 170,
+      "raw_path": "extracted/raw/RP8/res_8193_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_8193.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 8194 (23 slices, flags=0x877C)"
+    },
+    {
+      "res_id": 8194,
+      "res_id_hex": "0x2002",
+      "pack": "RP8",
+      "pack_id": 8,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 10438,
+      "raw_path": "extracted/raw/RP8/res_8194_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/ui/8194_ui_splash_logos.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 310x93 (128 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 9216,
+      "res_id_hex": "0x2400",
+      "pack": "RP9",
+      "pack_id": 9,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 4067,
+      "raw_path": "extracted/raw/RP9/res_9216_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_9216_arena.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Arena (86x38 tiles, 14 object groups)"
+    },
+    {
+      "res_id": 9217,
+      "res_id_hex": "0x2401",
+      "pack": "RP9",
+      "pack_id": 9,
+      "entry_index": 1,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 12852,
+      "raw_path": "extracted/raw/RP9/res_9217_entry_01_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_9217_ch01_for_sparta.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 1: For Sparta (232x39 tiles, 27 object groups)"
+    },
+    {
+      "res_id": 10240,
+      "res_id_hex": "0x2800",
+      "pack": "RP10",
+      "pack_id": 10,
+      "entry_index": 0,
+      "type_u8": 250,
+      "type_i8": -6,
+      "type_name": "UTF8_STRING_TABLE",
+      "original_size": 11639,
+      "raw_path": "extracted/raw/RP10/res_10240_entry_00_type_250.bin",
+      "extracted_paths": [
+        "extracted/strings/strings_10240_en.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "English localization (293 UTF-8 strings)"
+    },
+    {
+      "res_id": 12288,
+      "res_id_hex": "0x3000",
+      "pack": "RP12",
+      "pack_id": 12,
+      "entry_index": 0,
+      "type_u8": 250,
+      "type_i8": -6,
+      "type_name": "UTF8_STRING_TABLE",
+      "original_size": 12661,
+      "raw_path": "extracted/raw/RP12/res_12288_entry_00_type_250.bin",
+      "extracted_paths": [
+        "extracted/strings/strings_12288_fr.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "French localization (293 UTF-8 strings)"
+    },
+    {
+      "res_id": 13312,
+      "res_id_hex": "0x3400",
+      "pack": "RP13",
+      "pack_id": 13,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 19077,
+      "raw_path": "extracted/raw/RP13/res_13312_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_13312.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 17 anims, 139 compFrames, 5256 parts, 120 hitboxes"
+    },
+    {
+      "res_id": 13313,
+      "res_id_hex": "0x3401",
+      "pack": "RP13",
+      "pack_id": 13,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 1173,
+      "raw_path": "extracted/raw/RP13/res_13313_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_13313.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 13314 (194 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 13314,
+      "res_id_hex": "0x3402",
+      "pack": "RP13",
+      "pack_id": 13,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 5568,
+      "raw_path": "extracted/raw/RP13/res_13314_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/13314_boss_argos_giant_default.png",
+        "extracted/images/spritesheets/13314_boss_argos_giant_pal0_13315.png",
+        "extracted/images/spritesheets/13314_boss_argos_giant_pal1_13316.png",
+        "extracted/images/spritesheets/13314_boss_argos_giant_pal2_13317.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 150x88 (43 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 13315,
+      "res_id_hex": "0x3403",
+      "pack": "RP13",
+      "pack_id": 13,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 133,
+      "raw_path": "extracted/raw/RP13/res_13315_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_13315.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (43 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 13316,
+      "res_id_hex": "0x3404",
+      "pack": "RP13",
+      "pack_id": 13,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 133,
+      "raw_path": "extracted/raw/RP13/res_13316_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_13316.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (43 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 13317,
+      "res_id_hex": "0x3405",
+      "pack": "RP13",
+      "pack_id": 13,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 133,
+      "raw_path": "extracted/raw/RP13/res_13317_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_13317.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (43 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 14336,
+      "res_id_hex": "0x3800",
+      "pack": "RP14",
+      "pack_id": 14,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 10082,
+      "raw_path": "extracted/raw/RP14/res_14336_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_14336.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 18 anims, 107 compFrames, 2628 parts, 109 hitboxes"
+    },
+    {
+      "res_id": 14337,
+      "res_id_hex": "0x3801",
+      "pack": "RP14",
+      "pack_id": 14,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 825,
+      "raw_path": "extracted/raw/RP14/res_14337_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_14337.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 14338 (136 slices, flags=0x87E4)"
+    },
+    {
+      "res_id": 14338,
+      "res_id_hex": "0x3802",
+      "pack": "RP14",
+      "pack_id": 14,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 4515,
+      "raw_path": "extracted/raw/RP14/res_14338_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/14338_boss_dead_rider_assassin_default.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 96x120 (49 colors, 0 palette swaps)"
+    },
+    {
+      "res_id": 15360,
+      "res_id_hex": "0x3C00",
+      "pack": "RP15",
+      "pack_id": 15,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 16116,
+      "raw_path": "extracted/raw/RP15/res_15360_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_15360.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 19 anims, 132 compFrames, 4392 parts, 131 hitboxes"
+    },
+    {
+      "res_id": 15361,
+      "res_id_hex": "0x3C01",
+      "pack": "RP15",
+      "pack_id": 15,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 1545,
+      "raw_path": "extracted/raw/RP15/res_15361_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_15361.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 15362 (256 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 15362,
+      "res_id_hex": "0x3C02",
+      "pack": "RP15",
+      "pack_id": 15,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 5852,
+      "raw_path": "extracted/raw/RP15/res_15362_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/15362_enemy_minotaur_default.png",
+        "extracted/images/spritesheets/15362_enemy_minotaur_pal0_15363.png",
+        "extracted/images/spritesheets/15362_enemy_minotaur_pal1_15364.png",
+        "extracted/images/spritesheets/15362_enemy_minotaur_pal2_15365.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 86x129 (115 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 15363,
+      "res_id_hex": "0x3C03",
+      "pack": "RP15",
+      "pack_id": 15,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 349,
+      "raw_path": "extracted/raw/RP15/res_15363_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_15363.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (115 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 15364,
+      "res_id_hex": "0x3C04",
+      "pack": "RP15",
+      "pack_id": 15,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 349,
+      "raw_path": "extracted/raw/RP15/res_15364_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_15364.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (115 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 15365,
+      "res_id_hex": "0x3C05",
+      "pack": "RP15",
+      "pack_id": 15,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 349,
+      "raw_path": "extracted/raw/RP15/res_15365_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_15365.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (115 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 16384,
+      "res_id_hex": "0x4000",
+      "pack": "RP16",
+      "pack_id": 16,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 6063,
+      "raw_path": "extracted/raw/RP16/res_16384_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_16384.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 15 anims, 85 compFrames, 1494 parts, 92 hitboxes"
+    },
+    {
+      "res_id": 16385,
+      "res_id_hex": "0x4001",
+      "pack": "RP16",
+      "pack_id": 16,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 387,
+      "raw_path": "extracted/raw/RP16/res_16385_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_16385.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 16386 (63 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 16386,
+      "res_id_hex": "0x4002",
+      "pack": "RP16",
+      "pack_id": 16,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 3061,
+      "raw_path": "extracted/raw/RP16/res_16386_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/16386_enemy_gorgon_beast_default.png",
+        "extracted/images/spritesheets/16386_enemy_gorgon_beast_pal0_16387.png",
+        "extracted/images/spritesheets/16386_enemy_gorgon_beast_pal1_16388.png",
+        "extracted/images/spritesheets/16386_enemy_gorgon_beast_pal2_16389.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 131x76 (45 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 16387,
+      "res_id_hex": "0x4003",
+      "pack": "RP16",
+      "pack_id": 16,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 139,
+      "raw_path": "extracted/raw/RP16/res_16387_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_16387.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (45 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 16388,
+      "res_id_hex": "0x4004",
+      "pack": "RP16",
+      "pack_id": 16,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 139,
+      "raw_path": "extracted/raw/RP16/res_16388_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_16388.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (45 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 16389,
+      "res_id_hex": "0x4005",
+      "pack": "RP16",
+      "pack_id": 16,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 139,
+      "raw_path": "extracted/raw/RP16/res_16389_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_16389.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (45 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 17408,
+      "res_id_hex": "0x4400",
+      "pack": "RP17",
+      "pack_id": 17,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 14683,
+      "raw_path": "extracted/raw/RP17/res_17408_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_17408.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 15 anims, 99 compFrames, 4135 parts, 81 hitboxes"
+    },
+    {
+      "res_id": 17409,
+      "res_id_hex": "0x4401",
+      "pack": "RP17",
+      "pack_id": 17,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 1179,
+      "raw_path": "extracted/raw/RP17/res_17409_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_17409.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 17410 (195 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 17410,
+      "res_id_hex": "0x4402",
+      "pack": "RP17",
+      "pack_id": 17,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 3976,
+      "raw_path": "extracted/raw/RP17/res_17410_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/17410_boss_cerberus_default.png",
+        "extracted/images/spritesheets/17410_boss_cerberus_pal0_17411.png",
+        "extracted/images/spritesheets/17410_boss_cerberus_pal1_17412.png",
+        "extracted/images/spritesheets/17410_boss_cerberus_pal2_17413.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 157x64 (45 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 17411,
+      "res_id_hex": "0x4403",
+      "pack": "RP17",
+      "pack_id": 17,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 139,
+      "raw_path": "extracted/raw/RP17/res_17411_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_17411.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (45 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 17412,
+      "res_id_hex": "0x4404",
+      "pack": "RP17",
+      "pack_id": 17,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 139,
+      "raw_path": "extracted/raw/RP17/res_17412_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_17412.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (45 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 17413,
+      "res_id_hex": "0x4405",
+      "pack": "RP17",
+      "pack_id": 17,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 139,
+      "raw_path": "extracted/raw/RP17/res_17413_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_17413.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (45 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 18432,
+      "res_id_hex": "0x4800",
+      "pack": "RP18",
+      "pack_id": 18,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 9802,
+      "raw_path": "extracted/raw/RP18/res_18432_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_18432.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 28 anims, 117 compFrames, 2499 parts, 111 hitboxes"
+    },
+    {
+      "res_id": 18433,
+      "res_id_hex": "0x4801",
+      "pack": "RP18",
+      "pack_id": 18,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 1275,
+      "raw_path": "extracted/raw/RP18/res_18433_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_18433.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 18434 (211 slices, flags=0x07E4)"
+    },
+    {
+      "res_id": 18434,
+      "res_id_hex": "0x4802",
+      "pack": "RP18",
+      "pack_id": 18,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 3693,
+      "raw_path": "extracted/raw/RP18/res_18434_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/18434_boss_ceryx_and_legionnaire_default.png",
+        "extracted/images/spritesheets/18434_boss_ceryx_and_legionnaire_pal0_18435.png",
+        "extracted/images/spritesheets/18434_boss_ceryx_and_legionnaire_pal1_18436.png",
+        "extracted/images/spritesheets/18434_boss_ceryx_and_legionnaire_pal2_18437.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 178x48 (21 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 18435,
+      "res_id_hex": "0x4803",
+      "pack": "RP18",
+      "pack_id": 18,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 67,
+      "raw_path": "extracted/raw/RP18/res_18435_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_18435.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (21 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 18436,
+      "res_id_hex": "0x4804",
+      "pack": "RP18",
+      "pack_id": 18,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 67,
+      "raw_path": "extracted/raw/RP18/res_18436_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_18436.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (21 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 18437,
+      "res_id_hex": "0x4805",
+      "pack": "RP18",
+      "pack_id": 18,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 67,
+      "raw_path": "extracted/raw/RP18/res_18437_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_18437.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (21 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 19456,
+      "res_id_hex": "0x4C00",
+      "pack": "RP19",
+      "pack_id": 19,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 13159,
+      "raw_path": "extracted/raw/RP19/res_19456_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_19456_ch02_dead_rider.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 2: Dead Rider (204x46 tiles, 25 object groups)"
+    },
+    {
+      "res_id": 20480,
+      "res_id_hex": "0x5000",
+      "pack": "RP20",
+      "pack_id": 20,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 10538,
+      "raw_path": "extracted/raw/RP20/res_20480_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_20480_ch03_minotaur.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 3: Minotaur (112x59 tiles, 27 object groups)"
+    },
+    {
+      "res_id": 21504,
+      "res_id_hex": "0x5400",
+      "pack": "RP21",
+      "pack_id": 21,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 11349,
+      "raw_path": "extracted/raw/RP21/res_21504_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_21504_ch04_garden.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 4: Garden (113x67 tiles, 20 object groups)"
+    },
+    {
+      "res_id": 22528,
+      "res_id_hex": "0x5800",
+      "pack": "RP22",
+      "pack_id": 22,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 8345,
+      "raw_path": "extracted/raw/RP22/res_22528_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_22528_ch05_the_beast.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 5: The Beast (139x43 tiles, 27 object groups)"
+    },
+    {
+      "res_id": 23552,
+      "res_id_hex": "0x5C00",
+      "pack": "RP23",
+      "pack_id": 23,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 10841,
+      "raw_path": "extracted/raw/RP23/res_23552_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_23552_ch06_ruins.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 6: Ruins (178x38 tiles, 25 object groups)"
+    },
+    {
+      "res_id": 24576,
+      "res_id_hex": "0x6000",
+      "pack": "RP24",
+      "pack_id": 24,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 13573,
+      "raw_path": "extracted/raw/RP24/res_24576_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_24576_ch07_catacombs.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 7: Catacombs (116x74 tiles, 23 object groups)"
+    },
+    {
+      "res_id": 25600,
+      "res_id_hex": "0x6400",
+      "pack": "RP25",
+      "pack_id": 25,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 11324,
+      "raw_path": "extracted/raw/RP25/res_25600_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_25600_ch08_labyrinth.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 8: Labyrinth (113x72 tiles, 23 object groups)"
+    },
+    {
+      "res_id": 26624,
+      "res_id_hex": "0x6800",
+      "pack": "RP26",
+      "pack_id": 26,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 9087,
+      "raw_path": "extracted/raw/RP26/res_26624_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_26624_ch09_the_tower.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 9: The Tower (41x138 tiles, 24 object groups)"
+    },
+    {
+      "res_id": 27648,
+      "res_id_hex": "0x6C00",
+      "pack": "RP27",
+      "pack_id": 27,
+      "entry_index": 0,
+      "type_u8": 245,
+      "type_i8": -11,
+      "type_name": "LEVEL_BITSTREAM",
+      "original_size": 5132,
+      "raw_path": "extracted/raw/RP27/res_27648_entry_00_type_245.bin",
+      "extracted_paths": [
+        "extracted/levels/level_27648_ch10_messenger.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Chapter 10: Messenger (54x57 tiles, 22 object groups)"
+    },
+    {
+      "res_id": 28672,
+      "res_id_hex": "0x7000",
+      "pack": "RP28",
+      "pack_id": 28,
+      "entry_index": 0,
+      "type_u8": 247,
+      "type_i8": -9,
+      "type_name": "ANIMATION_BANK",
+      "original_size": 59675,
+      "raw_path": "extracted/raw/RP28/res_28672_entry_00_type_247.bin",
+      "extracted_paths": [
+        "extracted/animations/anim_28672.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "AnimBank v3: 122 anims, 699 compFrames, 15019 parts, 189 hitboxes"
+    },
+    {
+      "res_id": 28673,
+      "res_id_hex": "0x7001",
+      "pack": "RP28",
+      "pack_id": 28,
+      "entry_index": 1,
+      "type_u8": 254,
+      "type_i8": -2,
+      "type_name": "SPRITE_SLICE_OR_FONT_TABLE",
+      "original_size": 1962,
+      "raw_path": "extracted/raw/RP28/res_28673_entry_01_type_254.bin",
+      "extracted_paths": [
+        "extracted/slices/slice_28673.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Sprite Slice Table -> PNG 28674 (279 slices, flags=0x0764)"
+    },
+    {
+      "res_id": 28674,
+      "res_id_hex": "0x7002",
+      "pack": "RP28",
+      "pack_id": 28,
+      "entry_index": 2,
+      "type_u8": 253,
+      "type_i8": -3,
+      "type_name": "INDEXED_PNG",
+      "original_size": 6709,
+      "raw_path": "extracted/raw/RP28/res_28674_entry_02_type_253.bin",
+      "extracted_paths": [
+        "extracted/images/spritesheets/28674_char_kratos_player_default.png",
+        "extracted/images/spritesheets/28674_char_kratos_player_pal0_28675.png",
+        "extracted/images/spritesheets/28674_char_kratos_player_pal1_28676.png",
+        "extracted/images/spritesheets/28674_char_kratos_player_pal2_28677.png"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG 258x55 (32 colors, 3 palette swaps)"
+    },
+    {
+      "res_id": 28675,
+      "res_id_hex": "0x7003",
+      "pack": "RP28",
+      "pack_id": 28,
+      "entry_index": 3,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP28/res_28675_entry_03_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_28675.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 28676,
+      "res_id_hex": "0x7004",
+      "pack": "RP28",
+      "pack_id": 28,
+      "entry_index": 4,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP28/res_28676_entry_04_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_28676.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 28677,
+      "res_id_hex": "0x7005",
+      "pack": "RP28",
+      "pack_id": 28,
+      "entry_index": 5,
+      "type_u8": 251,
+      "type_i8": -5,
+      "type_name": "PALETTE_DATA",
+      "original_size": 100,
+      "raw_path": "extracted/raw/RP28/res_28677_entry_05_type_251.bin",
+      "extracted_paths": [
+        "extracted/palettes/pal_28677.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "PNG_PLTE_CHUNK_WITH_CRC32 (32 colors, ACTIVE_PLTE_SWAP)"
+    },
+    {
+      "res_id": 29696,
+      "res_id_hex": "0x7400",
+      "pack": "RP29",
+      "pack_id": 29,
+      "entry_index": 0,
+      "type_u8": 250,
+      "type_i8": -6,
+      "type_name": "UTF8_STRING_TABLE",
+      "original_size": 13712,
+      "raw_path": "extracted/raw/RP29/res_29696_entry_00_type_250.bin",
+      "extracted_paths": [
+        "extracted/strings/strings_29696_de.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "German localization (293 UTF-8 strings)"
+    },
+    {
+      "res_id": 30720,
+      "res_id_hex": "0x7800",
+      "pack": "RP30",
+      "pack_id": 30,
+      "entry_index": 0,
+      "type_u8": 250,
+      "type_i8": -6,
+      "type_name": "UTF8_STRING_TABLE",
+      "original_size": 12431,
+      "raw_path": "extracted/raw/RP30/res_30720_entry_00_type_250.bin",
+      "extracted_paths": [
+        "extracted/strings/strings_30720_it.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Italian localization (293 UTF-8 strings)"
+    },
+    {
+      "res_id": 32768,
+      "res_id_hex": "0x8000",
+      "pack": "RP32",
+      "pack_id": 32,
+      "entry_index": 0,
+      "type_u8": 250,
+      "type_i8": -6,
+      "type_name": "UTF8_STRING_TABLE",
+      "original_size": 12798,
+      "raw_path": "extracted/raw/RP32/res_32768_entry_00_type_250.bin",
+      "extracted_paths": [
+        "extracted/strings/strings_32768_pt.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Portuguese localization (293 UTF-8 strings)"
+    },
+    {
+      "res_id": 33792,
+      "res_id_hex": "0x8400",
+      "pack": "RP33",
+      "pack_id": 33,
+      "entry_index": 0,
+      "type_u8": 250,
+      "type_i8": -6,
+      "type_name": "UTF8_STRING_TABLE",
+      "original_size": 12452,
+      "raw_path": "extracted/raw/RP33/res_33792_entry_00_type_250.bin",
+      "extracted_paths": [
+        "extracted/strings/strings_33792_es.json"
+      ],
+      "status": "DECODED_OK",
+      "notes": "Spanish localization (293 UTF-8 strings)"
+    }
+  ]
+}

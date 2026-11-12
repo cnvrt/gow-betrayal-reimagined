@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Next.js generated files
+.next/
+**/.next/
+
+# Build files
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

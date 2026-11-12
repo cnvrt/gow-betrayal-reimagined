@@ -1,0 +1,120 @@
+{
+  "res_id": 2065,
+  "format": "PNG_PLTE_CHUNK_WITH_CRC32",
+  "status": "ACTIVE_PLTE_SWAP",
+  "target_png_id": 2057,
+  "num_colors": 12,
+  "stored_crc32": "0x0AC16502",
+  "calculated_crc32": "0x0AC16502",
+  "crc32_valid": true,
+  "colors": [
+    {
+      "index": 0,
+      "rgb": [
+        255,
+        0,
+        255
+      ],
+      "hex": "#FF00FF"
+    },
+    {
+      "index": 1,
+      "rgb": [
+        44,
+        29,
+        37
+      ],
+      "hex": "#2C1D25"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        18,
+        17,
+        20
+      ],
+      "hex": "#121114"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        79,
+        65,
+        61
+      ],
+      "hex": "#4F413D"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        104,
+        98,
+        88
+      ],
+      "hex": "#686258"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        113,
+        115,
+        106
+      ],
+      "hex": "#71736A"
+    },
+    {
+      "index": 6,
+      "rgb": [
+        125,
+        131,
+        118
+      ],
+      "hex": "#7D8376"
+    },
+    {
+      "index": 7,
+      "rgb": [
+        207,
+        192,
+        167
+      ],
+      "hex": "#CFC0A7"
+    },
+    {
+      "index": 8,
+      "rgb": [
+        79,
+        81,
+        76
+      ],
+      "hex": "#4F514C"
+    },
+    {
+      "index": 9,
+      "rgb": [
+        201,
+        160,
+        93
+      ],
+      "hex": "#C9A05D"
+    },
+    {
+      "index": 10,
+      "rgb": [
+        79,
+        47,
+        41
+      ],
+      "hex": "#4F2F29"
+    },
+    {
+      "index": 11,
+      "rgb": [
+        151,
+        107,
+        73
+      ],
+      "hex": "#976B49"
+    }
+  ]
+}

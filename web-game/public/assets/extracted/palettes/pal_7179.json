@@ -1,0 +1,93 @@
+{
+  "res_id": 7179,
+  "format": "PNG_PLTE_CHUNK_WITH_CRC32",
+  "status": "UNUSED_ORPHAN_PLTE",
+  "target_png_id": null,
+  "num_colors": 9,
+  "stored_crc32": "0x57CEB52A",
+  "calculated_crc32": "0x57CEB52A",
+  "crc32_valid": true,
+  "colors": [
+    {
+      "index": 0,
+      "rgb": [
+        255,
+        0,
+        255
+      ],
+      "hex": "#FF00FF"
+    },
+    {
+      "index": 1,
+      "rgb": [
+        13,
+        13,
+        16
+      ],
+      "hex": "#0D0D10"
+    },
+    {
+      "index": 2,
+      "rgb": [
+        40,
+        39,
+        46
+      ],
+      "hex": "#28272E"
+    },
+    {
+      "index": 3,
+      "rgb": [
+        62,
+        61,
+        77
+      ],
+      "hex": "#3E3D4D"
+    },
+    {
+      "index": 4,
+      "rgb": [
+        114,
+        2,
+        11
+      ],
+      "hex": "#72020B"
+    },
+    {
+      "index": 5,
+      "rgb": [
+        162,
+        165,
+        131
+      ],
+      "hex": "#A2A583"
+    },
+    {
+      "index": 6,
+      "rgb": [
+        90,
+        92,
+        70
+      ],
+      "hex": "#5A5C46"
+    },
+    {
+      "index": 7,
+      "rgb": [
+        171,
+        34,
+        3
+      ],
+      "hex": "#AB2203"
+    },
+    {
+      "index": 8,
+      "rgb": [
+        94,
+        2,
+        9
+      ],
+      "hex": "#5E0209"
+    }
+  ]
+}

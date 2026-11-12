@@ -1,0 +1,26 @@
+{
+  "res_id": 1030,
+  "image_res_id": 1042,
+  "version": 7,
+  "flags_u16": "0x87E4",
+  "num_slices": 1,
+  "is_bitmap_font": false,
+  "bytes_consumed": 15,
+  "total_bytes": 15,
+  "slices": [
+    {
+      "index": 0,
+      "a": 0,
+      "b": 0,
+      "u": 0,
+      "v": 0,
+      "w": 18,
+      "h": 18,
+      "e": 0,
+      "f": 0,
+      "w2": 18,
+      "h2": 18
+    }
+  ],
+  "status": "DECODED_OK"
+}

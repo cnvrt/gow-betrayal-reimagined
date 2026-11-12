@@ -1,0 +1,2061 @@
+{
+  "res_id": 12288,
+  "language_code": "fr",
+  "language_name": "French",
+  "string_count": 293,
+  "bytes_consumed": 12661,
+  "total_bytes": 12661,
+  "strings": [
+    {
+      "index": 0,
+      "raw": "Sélect",
+      "clean": "Sélect",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 1,
+      "raw": "Quitt.",
+      "clean": "Quitt.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 2,
+      "raw": "Retour",
+      "clean": "Retour",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 3,
+      "raw": " ",
+      "clean": " ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 4,
+      "raw": "Annul.",
+      "clean": "Annul.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 5,
+      "raw": "+ de jeux",
+      "clean": "+ de jeux",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 6,
+      "raw": "Ajustez l'écran en mode vertical",
+      "clean": "Ajustez l'écran en mode vertical",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 7,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 8,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 9,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 10,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 11,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 12,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 13,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 14,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 15,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 16,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 17,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 18,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 19,
+      "raw": "Português",
+      "clean": "Português",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 20,
+      "raw": "Deutsch",
+      "clean": "Deutsch",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 21,
+      "raw": "Español",
+      "clean": "Español",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 22,
+      "raw": "Italian",
+      "clean": "Italian",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 23,
+      "raw": "English",
+      "clean": "English",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 24,
+      "raw": "Français",
+      "clean": "Français",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 25,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 26,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 27,
+      "raw": "OK",
+      "clean": "OK",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 28,
+      "raw": "Oui",
+      "clean": "Oui",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 29,
+      "raw": "Non",
+      "clean": "Non",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 30,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 31,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 32,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 33,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 34,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 35,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 36,
+      "raw": "Seigneur Kratos, faut-il activer l'audio&?",
+      "clean": "Seigneur Kratos, faut-il activer l'audio&?",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 37,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 38,
+      "raw": "Jouer",
+      "clean": "Jouer",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 39,
+      "raw": "Chargmnt",
+      "clean": "Chargmnt",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 40,
+      "raw": "Aide",
+      "clean": "Aide",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 41,
+      "raw": "Options",
+      "clean": "Options",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 42,
+      "raw": "À propos",
+      "clean": "À propos",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 43,
+      "raw": "Pause",
+      "clean": "Pause",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 44,
+      "raw": "Audio",
+      "clean": "Audio",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 45,
+      "raw": "Menu ppal",
+      "clean": "Menu ppal",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 46,
+      "raw": "Aide",
+      "clean": "Aide",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 47,
+      "raw": "Son",
+      "clean": "Son",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 48,
+      "raw": "Musique",
+      "clean": "Musique",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 49,
+      "raw": "Chapitres",
+      "clean": "Chapitres",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 50,
+      "raw": "Menu ppal",
+      "clean": "Menu ppal",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 51,
+      "raw": "Retour",
+      "clean": "Retour",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 52,
+      "raw": "God Of War",
+      "clean": "God Of War",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 53,
+      "raw": "Arène",
+      "clean": "Arène",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 54,
+      "raw": "Sparte",
+      "clean": "Sparte",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 55,
+      "raw": "Cavalier",
+      "clean": "Cavalier",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 56,
+      "raw": "Minotaure",
+      "clean": "Minotaure",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 57,
+      "raw": "Jardin",
+      "clean": "Jardin",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 58,
+      "raw": "Monstre",
+      "clean": "Monstre",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 59,
+      "raw": "Ruine",
+      "clean": "Ruine",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 60,
+      "raw": "Catacombe",
+      "clean": "Catacombe",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 61,
+      "raw": "Dédale",
+      "clean": "Dédale",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 62,
+      "raw": "La Tour",
+      "clean": "La Tour",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 63,
+      "raw": "Messager",
+      "clean": "Messager",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 64,
+      "raw": "QUITTER",
+      "clean": "QUITTER",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 65,
+      "raw": "QUITTER PARTIE",
+      "clean": "QUITTER PARTIE",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 66,
+      "raw": "Arène",
+      "clean": "Arène",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 67,
+      "raw": "salle de jeu",
+      "clean": "salle de jeu",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 68,
+      "raw": "GAME LOBBY",
+      "clean": "GAME LOBBY",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 69,
+      "raw": "LEADERS",
+      "clean": "LEADERS",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 70,
+      "raw": "RECOMMANDER",
+      "clean": "RECOMMANDER",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 71,
+      "raw": "CLASSER LE JEU",
+      "clean": "CLASSER LE JEU",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 72,
+      "raw": "visiter Game Lobby",
+      "clean": "visiter Game Lobby",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 73,
+      "raw": "Vérification de",
+      "clean": "Vérification de",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 74,
+      "raw": "l'inscription...",
+      "clean": "l'inscription...",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 75,
+      "raw": "Bonjour",
+      "clean": "Bonjour",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 76,
+      "raw": "Bonjour",
+      "clean": "Bonjour",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 77,
+      "raw": "Rejoindre Game Lobby",
+      "clean": "Rejoindre Game Lobby",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 78,
+      "raw": "Rejoindre salle de jeu",
+      "clean": "Rejoindre salle de jeu",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 79,
+      "raw": "\nJouer comme invité",
+      "clean": "\nJouer comme invité",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 80,
+      "raw": "Créer nom d'utilisateur",
+      "clean": "Créer nom d'utilisateur",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 81,
+      "raw": "Nom d'utilisateur&:",
+      "clean": "Nom d'utilisateur&:",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 82,
+      "raw": "N° mobile&:",
+      "clean": "N° mobile&:",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 83,
+      "raw": "Envoyer",
+      "clean": "Envoyer",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 84,
+      "raw": "\nEnvoi en cours\n\nPatienter...",
+      "clean": "\nEnvoi en cours\n\nPatienter...",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 85,
+      "raw": "Le nom d'utilisateur doit avoir au moins 4 lettres",
+      "clean": "Le nom d'utilisateur doit avoir au moins 4 lettres",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 86,
+      "raw": "Erreur",
+      "clean": "Erreur",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 87,
+      "raw": "Le numéro de téléphone ne doit pas commencer par 0 ni 1",
+      "clean": "Le numéro de téléphone ne doit pas commencer par 0 ni 1",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 88,
+      "raw": "Le numéro de téléphone doit avoir 10 chiffres",
+      "clean": "Le numéro de téléphone doit avoir 10 chiffres",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 89,
+      "raw": "Nom d'utilisateur refusé parce qu'il est interdit ou qu'il existe déjà",
+      "clean": "Nom d'utilisateur refusé parce qu'il est interdit ou qu'il existe déjà",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 90,
+      "raw": "Impossible de se connecter au réseau",
+      "clean": "Impossible de se connecter au réseau",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 91,
+      "raw": "Jouer comme invité",
+      "clean": "Jouer comme invité",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 92,
+      "raw": "Connexion en cours...\nPatienter...",
+      "clean": "Connexion en cours...\nPatienter...",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 93,
+      "raw": "Connecté",
+      "clean": "Connecté",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 94,
+      "raw": "Ta recommandation a été envoyée à tes copains",
+      "clean": "Ta recommandation a été envoyée à tes copains",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 95,
+      "raw": "Ton classement a été enregistré",
+      "clean": "Ton classement a été enregistré",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 96,
+      "raw": "Veux-tu publier\nton score&?",
+      "clean": "Veux-tu publier\nton score&?",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 97,
+      "raw": "Ton score a été publié",
+      "clean": "Ton score a été publié",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 98,
+      "raw": "Ton score n'a pas été publié",
+      "clean": "Ton score n'a pas été publié",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 99,
+      "raw": "Rang&: ",
+      "clean": "Rang&: ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 100,
+      "raw": "Nom&: ",
+      "clean": "Nom&: ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 101,
+      "raw": "Top 10",
+      "clean": "Top 10",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 102,
+      "raw": "CLASSE CE JEU",
+      "clean": "CLASSE CE JEU",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 103,
+      "raw": "--  10&: Le top",
+      "clean": "--  10&: Le top",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 104,
+      "raw": "--   9&: Exceptionnel",
+      "clean": "--   9&: Exceptionnel",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 105,
+      "raw": "--   8&: Génial",
+      "clean": "--   8&: Génial",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 106,
+      "raw": "--   7&: Super",
+      "clean": "--   7&: Super",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 107,
+      "raw": "--   6&: Bon",
+      "clean": "--   6&: Bon",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 108,
+      "raw": "--   5&: Moyen",
+      "clean": "--   5&: Moyen",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 109,
+      "raw": "--   4&: Décevant",
+      "clean": "--   4&: Décevant",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 110,
+      "raw": "--   3&: Mauvais",
+      "clean": "--   3&: Mauvais",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 111,
+      "raw": "--   2&: Minable",
+      "clean": "--   2&: Minable",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 112,
+      "raw": "--   1&: Archi-nul",
+      "clean": "--   1&: Archi-nul",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 113,
+      "raw": "Tu as classé ce jeu&:",
+      "clean": "Tu as classé ce jeu&:",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 114,
+      "raw": "Combat\nAppuie sur \\ / 5 pour attaquer. Appuie plusieurs fois d'affilée pour faire une attaque combo. Kratos peut faire des attaques combo en l'air.\n\nDéplacement\nUtilise les chiffres ou les touches directionnelles pour déplacer Kratos. Appuie sur [ / 4 ou sur ] / 6 pour courir, sur { / 2 pour sauter, sur } / 8 pour bloquer les attaques.\n\nArmes et magie\nParcours les armes et la magie en appuyant sur * ou sur la touche de sélection gauche. L'icône de l'arme portée ou de la magie se trouve à l'intérieur de l'icône Lame.\n\nJauge de santé\nLa barre verte dans l'icône Lame est la jauge de santé. Elle se remplit en récupérant les orbes verts des ennemis tombés et les coffres verts brillants .\n\nJauge de magie\nLa barre bleue dans l'icône Lame est la jauge de magie. Elle se remplit en récupérant les orbes magiques bleus des ennemis morts et les coffres bleus brillants.\n\nCompteur d'orbes rouges\nLe compteur d'orbes rouges se trouve sous l'icône Lame. Les orbes rouges améliorent les armes et la magie. En récupérant les orbes magiques rouges des ennemis morts et les coffres rouges brillants, le compteur augmente. Quand un nouveau niveau est débloqué, le nombre maximum d'orbes rouges récupérables au cours du jeu augmente. Quand Kratos a récupéré le nombre maximum d'orbes disponibles, il n'y en aura plus en cours de partie, ni en ouvrant les coffres ni en abattant les ennemis.\n\nMenu Amélioration\nAppuie sur # pour voir le menu Amélioration. Appuie sur { / 2 ou } / 8 pour sélectionner l'arme ou la magie que tu veux améliorer, puis maintiens enfoncé \\ / 5 pour attribuer les orbes rouges acquis.\n\nPlumes de phénix\nLes plumes de phénix sont cachées dans des coffres simples. Trouve une plume de phénix pour augmenter indéfiniment ta jauge de magie.\n\nYeux de Gorgone\nLes yeux de Gorgone se cachent dans des coffres simples. Trouve un oeil de Gorgone pour augmenter indéfiniment ta jauge de santé.\n\nMode Arène\nEn mode Arène, Kratos doit vaincre autant d'ennemis que possible sans mourir. Si tu bats suffisamment d'ennemis, les portes qui ferment les niveaux supérieurs de l'arène s'ouvriront. Dans ce mode, seul le nombre total d'ennemis vaincus s'affiche au bas de l'écran.\n\n\n",
+      "clean": "Combat\nAppuie sur \\ / 5 pour attaquer. Appuie plusieurs fois d'affilée pour faire une attaque combo. Kratos peut faire des attaques combo en l'air.\n\nDéplacement\nUtilise les chiffres ou les touches directionnelles pour déplacer Kratos. Appuie sur [ / 4 ou sur ] / 6 pour courir, sur { / 2 pour sauter, sur } / 8 pour bloquer les attaques.\n\nArmes et magie\nParcours les armes et la magie en appuyant sur * ou sur la touche de sélection gauche. L'icône de l'arme portée ou de la magie se trouve à l'intérieur de l'icône Lame.\n\nJauge de santé\nLa barre verte dans l'icône Lame est la jauge de santé. Elle se remplit en récupérant les orbes verts des ennemis tombés et les coffres verts brillants .\n\nJauge de magie\nLa barre bleue dans l'icône Lame est la jauge de magie. Elle se remplit en récupérant les orbes magiques bleus des ennemis morts et les coffres bleus brillants.\n\nCompteur d'orbes rouges\nLe compteur d'orbes rouges se trouve sous l'icône Lame. Les orbes rouges améliorent les armes et la magie. En récupérant les orbes magiques rouges des ennemis morts et les coffres rouges brillants, le compteur augmente. Quand un nouveau niveau est débloqué, le nombre maximum d'orbes rouges récupérables au cours du jeu augmente. Quand Kratos a récupéré le nombre maximum d'orbes disponibles, il n'y en aura plus en cours de partie, ni en ouvrant les coffres ni en abattant les ennemis.\n\nMenu Amélioration\nAppuie sur # pour voir le menu Amélioration. Appuie sur { / 2 ou } / 8 pour sélectionner l'arme ou la magie que tu veux améliorer, puis maintiens enfoncé \\ / 5 pour attribuer les orbes rouges acquis.\n\nPlumes de phénix\nLes plumes de phénix sont cachées dans des coffres simples. Trouve une plume de phénix pour augmenter indéfiniment ta jauge de magie.\n\nYeux de Gorgone\nLes yeux de Gorgone se cachent dans des coffres simples. Trouve un oeil de Gorgone pour augmenter indéfiniment ta jauge de santé.\n\nMode Arène\nEn mode Arène, Kratos doit vaincre autant d'ennemis que possible sans mourir. Si tu bats suffisamment d'ennemis, les portes qui ferment les niveaux supérieurs de l'arène s'ouvriront. Dans ce mode, seul le nombre total d'ennemis vaincus s'affiche au bas de l'écran.\n\n\n",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 115,
+      "raw": "Version %\n\n© 2007 Sony Online Entertainment LLC. God of War est une marque commerciale de Sony Computer Entertainment America Inc. SOE et le logo SOE sont des marques commerciales déposées de Sony Online Entertainment LLC. Toutes les autres marques commerciales appartiennent à leurs propriétaires respectifs. Tous droits réservés.\n\nProduction, conception, graphismes, conception des niveaux et AQ de Sony Online Entertainment - Los Angeles\n\nProducteur exécutif&: Shalom Mann\nCoproducteur exécutif&: Spencer Hunt\nProduit par Philip Cohen\n \nDirecteur artistique&: Nathan Leland\nDesigner de production&: Jeremy Steiner\nResponsable conception niveaux&: Philip Cohen\nConception niveaux&: Nathan Leland et Al Barasch\n \nDirecteur assurance qualité&: Dave Diaz\nResponsable AQ&: Efrain Gutierrez\nAQ supplémentaire fournie par Sony Online Entertainment - Los Angeles\n \nDirecteur du déploiement&: Tim Pham\nÉquipe de déploiement&: Theresa Boscia, Jamie Defrisco, Justin Harper, Ed Rios, Paul Zagala\n\nPour toute assistance contacter&: mobile.sonypictures.com/faq\n\nDéveloppé et porté par Javaground à l'aide de Javaground Solution.\n\nDéveloppeur&: Steven Lawson\nAssistance animation&: David Frankel\nAssistance déploiement&: Zac Pfaff\nAudio&: Mario Barbosa\nAssistance outils&: Merci à toute l'équipe de Javaground&!\n\nGraphismes personnages et animation de WayForward Inc.\nDirecteur&: Chris Watson\nGraphiste principal et animateur&: Marc Gomez\nGraphismes et animation Kratos&: Chris Kerlegon\nGraphismes et animation ennemis&: Abby Goldsmith, Eun Hi Oh, Rob Buchanan\n\nRemerciements spéciaux à\nDavid Jaffe, Shannon Studstill, Whitney Wade, Cory Balrog et toute l'équipe SCEA de Santa Monica. Andreea Enache, Russell Shanks et John Smedley\n\n\n\n",
+      "clean": "Version %\n\n© 2007 Sony Online Entertainment LLC. God of War est une marque commerciale de Sony Computer Entertainment America Inc. SOE et le logo SOE sont des marques commerciales déposées de Sony Online Entertainment LLC. Toutes les autres marques commerciales appartiennent à leurs propriétaires respectifs. Tous droits réservés.\n\nProduction, conception, graphismes, conception des niveaux et AQ de Sony Online Entertainment - Los Angeles\n\nProducteur exécutif&: Shalom Mann\nCoproducteur exécutif&: Spencer Hunt\nProduit par Philip Cohen\n \nDirecteur artistique&: Nathan Leland\nDesigner de production&: Jeremy Steiner\nResponsable conception niveaux&: Philip Cohen\nConception niveaux&: Nathan Leland et Al Barasch\n \nDirecteur assurance qualité&: Dave Diaz\nResponsable AQ&: Efrain Gutierrez\nAQ supplémentaire fournie par Sony Online Entertainment - Los Angeles\n \nDirecteur du déploiement&: Tim Pham\nÉquipe de déploiement&: Theresa Boscia, Jamie Defrisco, Justin Harper, Ed Rios, Paul Zagala\n\nPour toute assistance contacter&: mobile.sonypictures.com/faq\n\nDéveloppé et porté par Javaground à l'aide de Javaground Solution.\n\nDéveloppeur&: Steven Lawson\nAssistance animation&: David Frankel\nAssistance déploiement&: Zac Pfaff\nAudio&: Mario Barbosa\nAssistance outils&: Merci à toute l'équipe de Javaground&!\n\nGraphismes personnages et animation de WayForward Inc.\nDirecteur&: Chris Watson\nGraphiste principal et animateur&: Marc Gomez\nGraphismes et animation Kratos&: Chris Kerlegon\nGraphismes et animation ennemis&: Abby Goldsmith, Eun Hi Oh, Rob Buchanan\n\nRemerciements spéciaux à\nDavid Jaffe, Shannon Studstill, Whitney Wade, Cory Balrog et toute l'équipe SCEA de Santa Monica. Andreea Enache, Russell Shanks et John Smedley\n\n\n\n",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 116,
+      "raw": "LAMES\nD'ATHÉNA",
+      "clean": "LAMES\nD'ATHÉNA",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 117,
+      "raw": "LAME\nD'ARTÉMIS",
+      "clean": "LAME\nD'ARTÉMIS",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 118,
+      "raw": "REGARD\nDE MÉDUSE",
+      "clean": "REGARD\nDE MÉDUSE",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 119,
+      "raw": "ARMÉE\nD'HADÈS",
+      "clean": "ARMÉE\nD'HADÈS",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 120,
+      "raw": "Jouer",
+      "clean": "Jouer",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 121,
+      "raw": "\nMerci d'avoir donné ton avis.",
+      "clean": "\nMerci d'avoir donné ton avis.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 122,
+      "raw": "Depuis sa victoire sur Arès, Kratos le dieu de la Guerre se délectait de ses pouvoirs retrouvés et fit de grandes conquêtes à la tête de l'armée de Sparte.",
+      "clean": "Depuis sa victoire sur Arès, Kratos le dieu de la Guerre se délectait de ses pouvoirs retrouvés et fit de grandes conquêtes à la tête de l'armée de Sparte.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 123,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 124,
+      "raw": "^6Le regard de Méduse paralyse momentanément les ennemis mais épuise ta magie. Appuie sur la touche de sélection gauche jusqu'à ce que la tête de Méduse s'affiche dans l'icône Lame, puis enfonce et maintiens \\ pour l'activer. Appuie sur la touche de sélection gauche.",
+      "clean": "Le regard de Méduse paralyse momentanément les ennemis mais épuise ta magie. Appuie sur la touche de sélection gauche jusqu'à ce que la tête de Méduse s'affiche dans l'icône Lame, puis enfonce et maintiens \\ pour l'activer. Appuie sur la touche de sélection gauche.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "TUTORIAL_MEDUSAS_GAZE"
+    },
+    {
+      "index": 125,
+      "raw": "Il n'y a pas assez d'espace libre pour sauvegarder la partie. Libère de l'espace pour sauvegarder ta progression.",
+      "clean": "Il n'y a pas assez d'espace libre pour sauvegarder la partie. Libère de l'espace pour sauvegarder ta progression.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 126,
+      "raw": "@22",
+      "clean": "@22",
+      "control_type": "SCRIPT_STATE_JUMP",
+      "speaker": null
+    },
+    {
+      "index": 127,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 128,
+      "raw": "^2Seigneur Kratos&!  Défends-nous&!  ",
+      "clean": "Seigneur Kratos&!  Défends-nous&!  ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 129,
+      "raw": "^2On ne peut pas gagner&!  Aide-nous&!  Kratos&!",
+      "clean": "On ne peut pas gagner&!  Aide-nous&!  Kratos&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 130,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 131,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 132,
+      "raw": "@81",
+      "clean": "@81",
+      "control_type": "SCRIPT_STATE_JUMP",
+      "speaker": null
+    },
+    {
+      "index": 133,
+      "raw": "^2Par les dieux&! ",
+      "clean": "Par les dieux&! ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 134,
+      "raw": "^2La bataille a courroucé les dieux. Ils ont envoyé le géant d'Héra pour nous massacrer&!",
+      "clean": "La bataille a courroucé les dieux. Ils ont envoyé le géant d'Héra pour nous massacrer&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 135,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 136,
+      "raw": "^0Le monstre d'Héra ne nous empêchera pas de vaincre.  ",
+      "clean": "Le monstre d'Héra ne nous empêchera pas de vaincre.  ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 137,
+      "raw": "^1Quand l'icône Flèche apparaît sur la tête d'Argos, appuie sur } pour déclencher une attaque spéciale, puis appuie sur la direction indiquée par chaque Flèche pour terminer l'attaque.",
+      "clean": "Quand l'icône Flèche apparaît sur la tête d'Argos, appuie sur } pour déclencher une attaque spéciale, puis appuie sur la direction indiquée par chaque Flèche pour terminer l'attaque.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 138,
+      "raw": "@51",
+      "clean": "@51",
+      "control_type": "SCRIPT_STATE_JUMP",
+      "speaker": null
+    },
+    {
+      "index": 139,
+      "raw": "@21",
+      "clean": "@21",
+      "control_type": "SCRIPT_STATE_JUMP",
+      "speaker": null
+    },
+    {
+      "index": 140,
+      "raw": "@61",
+      "clean": "@61",
+      "control_type": "SCRIPT_STATE_JUMP",
+      "speaker": null
+    },
+    {
+      "index": 141,
+      "raw": "^2Seigneur Kratos&! L'ennemi s'est réfugié dans le temple du village&! Passe par le toit, puis traverse le Bassin du Culte pour entrer dans le temple.",
+      "clean": "Seigneur Kratos&! L'ennemi s'est réfugié dans le temple du village&! Passe par le toit, puis traverse le Bassin du Culte pour entrer dans le temple.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 142,
+      "raw": "^0Ils regretteront d'avoir défié le dieu de la Guerre. ",
+      "clean": "Ils regretteront d'avoir défié le dieu de la Guerre. ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 143,
+      "raw": "@42",
+      "clean": "@42",
+      "control_type": "SCRIPT_STATE_JUMP",
+      "speaker": null
+    },
+    {
+      "index": 144,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 145,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 146,
+      "raw": "Salut&!",
+      "clean": "Salut&!",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 147,
+      "raw": "Oeil de Gorgone",
+      "clean": "Oeil de Gorgone",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 148,
+      "raw": "Plume de phénix",
+      "clean": "Plume de phénix",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 149,
+      "raw": "Amélior.",
+      "clean": "Amélior.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 150,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 151,
+      "raw": "Sacrifice accepté",
+      "clean": "Sacrifice accepté",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 152,
+      "raw": "*0",
+      "clean": "0",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 153,
+      "raw": "@41",
+      "clean": "@41",
+      "control_type": "SCRIPT_STATE_JUMP",
+      "speaker": null
+    },
+    {
+      "index": 154,
+      "raw": "^2Kratos, impossible d'ouvrir ce portail. Il doit y avoir un interrupteur en haut de l'échelle&!",
+      "clean": "Kratos, impossible d'ouvrir ce portail. Il doit y avoir un interrupteur en haut de l'échelle&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 155,
+      "raw": "^1Tous les ennemis sont tombés sous les coups de Kratos et de ses guerriers. ",
+      "clean": "Tous les ennemis sont tombés sous les coups de Kratos et de ses guerriers. ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 156,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 157,
+      "raw": "*Le carnage perpétré par Kratos préoccupe l'Olympe, mais Zeus a détourné son regard des exploits du dieu de la Guerre.",
+      "clean": "Le carnage perpétré par Kratos préoccupe l'Olympe, mais Zeus a détourné son regard des exploits du dieu de la Guerre.",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 158,
+      "raw": "Santé augmentée",
+      "clean": "Santé augmentée",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 159,
+      "raw": "?",
+      "clean": "?",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 160,
+      "raw": "Arme",
+      "clean": "Arme",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 161,
+      "raw": "^2Fuyons&! Sauve qui peut&! ",
+      "clean": "Fuyons&! Sauve qui peut&! ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 162,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 163,
+      "raw": "^2Le Minotaure a été lâché&! Il faut fuir&! ",
+      "clean": "Le Minotaure a été lâché&! Il faut fuir&! ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 164,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 165,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 166,
+      "raw": "^2Cette petite ouverture dans le mur n'est pas là par hasard...",
+      "clean": "Cette petite ouverture dans le mur n'est pas là par hasard...",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 167,
+      "raw": "^1Le géant a tout détruit sur son passage, terrorisant les Spartiates et les ennemis.",
+      "clean": "Le géant a tout détruit sur son passage, terrorisant les Spartiates et les ennemis.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 168,
+      "raw": "Suivant : ",
+      "clean": "Suivant : ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 169,
+      "raw": " : Passé",
+      "clean": " : Passé",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 170,
+      "raw": "^2Jette le monstre dans l'égout devant pour le piéger&!",
+      "clean": "Jette le monstre dans l'égout devant pour le piéger&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 171,
+      "raw": "Coup",
+      "clean": "Coup",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 172,
+      "raw": "BETA",
+      "clean": "BETA",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 173,
+      "raw": "Tu es mort",
+      "clean": "Tu es mort",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 174,
+      "raw": "Contin.",
+      "clean": "Contin.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 175,
+      "raw": "^1Les ennemis dans le temple ont été écrasés et Kratos poursuit la bataille.",
+      "clean": "Les ennemis dans le temple ont été écrasés et Kratos poursuit la bataille.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 176,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 177,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 178,
+      "raw": "^1Fonce dans le coffre pour le prendre, puis appuie sur [ ou ] pour le pousser ou le tirer.",
+      "clean": "Fonce dans le coffre pour le prendre, puis appuie sur [ ou ] pour le pousser ou le tirer.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 179,
+      "raw": "^1Kratos peut se mettre dessus et en sauter.",
+      "clean": "Kratos peut se mettre dessus et en sauter.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 180,
+      "raw": "^1Appuie sur {, { pour faire un double saut.",
+      "clean": "Appuie sur {, { pour faire un double saut.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 181,
+      "raw": "^1Quand un soldat est affaibli, l'icône Flèche tournoie sur sa tête. Mets-toi à côté de lui et appuie sur } pour le saisir et sur [,  ], ou \\ pour l'achever.",
+      "clean": "Quand un soldat est affaibli, l'icône Flèche tournoie sur sa tête. Mets-toi à côté de lui et appuie sur } pour le saisir et sur [,  ], ou \\ pour l'achever.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 182,
+      "raw": "^1L'armée d'Hadès envoie les âmes des morts-vivants pour tuer les ennemis à distance mais épuise ta magie.",
+      "clean": "L'armée d'Hadès envoie les âmes des morts-vivants pour tuer les ennemis à distance mais épuise ta magie.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 183,
+      "raw": "^7Appuie sur la touche de sélection gauche pour afficher l'icône Crâne dans l'icône Lame. Appuie sur \\ pour l'activer. Appuie sur la touche de sélection gauche.",
+      "clean": "Appuie sur la touche de sélection gauche pour afficher l'icône Crâne dans l'icône Lame. Appuie sur \\ pour l'activer. Appuie sur la touche de sélection gauche.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "TUTORIAL_ARMY_OF_HADES"
+    },
+    {
+      "index": 184,
+      "raw": " Eff. Sauv.",
+      "clean": " Eff. Sauv.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 185,
+      "raw": "Confirmer&?",
+      "clean": "Confirmer&?",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 186,
+      "raw": "Menu principal&?",
+      "clean": "Menu principal&?",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 187,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 188,
+      "raw": "^5La puissante lame d'Artémis transperce des groupes d'ennemis mais épuise ta magie. Appuie sur la touche de sélection gauche pour afficher l'icône Épée dans l'icône Lame, puis appuie vite sur \\ pour réaliser une attaque terrestre ou aérienne. Appuie sur la touche de sélection gauche.",
+      "clean": "La puissante lame d'Artémis transperce des groupes d'ennemis mais épuise ta magie. Appuie sur la touche de sélection gauche pour afficher l'icône Épée dans l'icône Lame, puis appuie vite sur \\ pour réaliser une attaque terrestre ou aérienne. Appuie sur la touche de sélection gauche.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "TUTORIAL_BLADE_OF_ARTEMIS"
+    },
+    {
+      "index": 189,
+      "raw": "Magie augmentée",
+      "clean": "Magie augmentée",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 190,
+      "raw": "Tue le maximum",
+      "clean": "Tue le maximum",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 191,
+      "raw": "^0L'Olympe n'a-t-il rien de mieux pour m'arrêter&? ",
+      "clean": "L'Olympe n'a-t-il rien de mieux pour m'arrêter&? ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 192,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 193,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 194,
+      "raw": "Déroul",
+      "clean": "Déroul",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 195,
+      "raw": "rest",
+      "clean": "rest",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 196,
+      "raw": "Rejou.",
+      "clean": "Rejou.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 197,
+      "raw": "Menu",
+      "clean": "Menu",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 198,
+      "raw": "Réessayer",
+      "clean": "Réessayer",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 199,
+      "raw": "Reprendre",
+      "clean": "Reprendre",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 200,
+      "raw": "Alterner",
+      "clean": "Alterner",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 201,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 202,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 203,
+      "raw": "^0Je vengerai la mort de mes guerriers&!",
+      "clean": "Je vengerai la mort de mes guerriers&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 204,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 205,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 206,
+      "raw": "Nombre de tués&: ",
+      "clean": "Nombre de tués&: ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 207,
+      "raw": "Nouveau record&!",
+      "clean": "Nouveau record&!",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 208,
+      "raw": "Record&: ",
+      "clean": "Record&: ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 209,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 210,
+      "raw": "^2Dieu de la Guerre, aide-nous&!  Donne-nous la force&!  ",
+      "clean": "Dieu de la Guerre, aide-nous&!  Donne-nous la force&!  ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 211,
+      "raw": "^0Suivez-moi et la victoire sera à vous&!",
+      "clean": "Suivez-moi et la victoire sera à vous&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 212,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 213,
+      "raw": "^1Appuie sur * ou la touche de sélection gauche pour parcourir les armes et la magie.",
+      "clean": "Appuie sur * ou la touche de sélection gauche pour parcourir les armes et la magie.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 214,
+      "raw": "^4Appuie vite sur \\ pour des attaques combo. Touche de sélection gauche pour continuer.",
+      "clean": "Appuie vite sur \\ pour des attaques combo. Touche de sélection gauche pour continuer.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "TUTORIAL_COMBO"
+    },
+    {
+      "index": 215,
+      "raw": "^1Pour ouvrir la porte qui brille, sacrifie le nombre d'âmes ennemies indiqué au bas de l'écran.",
+      "clean": "Pour ouvrir la porte qui brille, sacrifie le nombre d'âmes ennemies indiqué au bas de l'écran.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 216,
+      "raw": "^1Les orbes verts remplissent la jauge de santé.",
+      "clean": "Les orbes verts remplissent la jauge de santé.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 217,
+      "raw": "^1Appuie sur { pour sauter. Saute et appuie vite sur \\ pour attaquer en l'air.",
+      "clean": "Appuie sur { pour sauter. Saute et appuie vite sur \\ pour attaquer en l'air.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 218,
+      "raw": "^1Appuie sur { pour te balancer d'un rebord quand l'icône Flèche et l'indicateur de balancement s'affichent en même temps.",
+      "clean": "Appuie sur { pour te balancer d'un rebord quand l'icône Flèche et l'indicateur de balancement s'affichent en même temps.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 219,
+      "raw": "^1Appuie sur } pour ouvrir des coffres ou actionner les leviers quand l'icône Flèche apparaît.",
+      "clean": "Appuie sur } pour ouvrir des coffres ou actionner les leviers quand l'icône Flèche apparaît.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 220,
+      "raw": "^1Les coffres rouges contiennent des orbes rouges que tu peux sacrifier pour améliorer tes armes et ta magie. Appuie sur # pour afficher le menu Amélioration. Appuie sur { ou } pour choisir une arme ou une magie, puis maintiens \\ pour l'améliorer.",
+      "clean": "Les coffres rouges contiennent des orbes rouges que tu peux sacrifier pour améliorer tes armes et ta magie. Appuie sur # pour afficher le menu Amélioration. Appuie sur { ou } pour choisir une arme ou une magie, puis maintiens \\ pour l'améliorer.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 221,
+      "raw": "^1Les orbes bleus remplissent la jauge de magie.",
+      "clean": "Les orbes bleus remplissent la jauge de magie.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 222,
+      "raw": "Amélior.",
+      "clean": "Amélior.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 223,
+      "raw": "Niveau  ",
+      "clean": "Niveau  ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 224,
+      "raw": "Pour niv.",
+      "clean": "Pour niv.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 225,
+      "raw": "puis. suiv",
+      "clean": "puis. suiv",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 226,
+      "raw": "  orbes",
+      "clean": "  orbes",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 227,
+      "raw": "texte",
+      "clean": "texte",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 228,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 229,
+      "raw": "^0Cavalier, faucheur d'âmes, mes frères de Sparte ne te rejoindront pas en enfer&!",
+      "clean": "Cavalier, faucheur d'âmes, mes frères de Sparte ne te rejoindront pas en enfer&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 230,
+      "raw": "Kratos a vaincu le géant Argos, mais les dieux sont mécontents, car Argos est la créature d'Héra, épouse de Zeus et reine de l'Olympe.  Kratos savait que sa mort cachait quelque chose.",
+      "clean": "Kratos a vaincu le géant Argos, mais les dieux sont mécontents, car Argos est la créature d'Héra, épouse de Zeus et reine de l'Olympe.  Kratos savait que sa mort cachait quelque chose.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 231,
+      "raw": "^1Pendant que Kratos combattait le monstre à trois têtes, les soldats hurlaient.",
+      "clean": "Pendant que Kratos combattait le monstre à trois têtes, les soldats hurlaient.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 232,
+      "raw": "^2À l'aide&!",
+      "clean": "À l'aide&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 233,
+      "raw": "^2Seigneur Kratos, aide-nous&!",
+      "clean": "Seigneur Kratos, aide-nous&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 234,
+      "raw": "avec",
+      "clean": "avec",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 235,
+      "raw": "sans",
+      "clean": "sans",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 236,
+      "raw": "^1Avide de venger la mort de ses hommes, Kratos continua à pourchasser le mystérieux soldat. ",
+      "clean": "Avide de venger la mort de ses hommes, Kratos continua à pourchasser le mystérieux soldat. ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 237,
+      "raw": "^1Mais il s'avéra que le soldat n'agissait pas tout seul.",
+      "clean": "Mais il s'avéra que le soldat n'agissait pas tout seul.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 238,
+      "raw": "d'ennemis sans mourir.",
+      "clean": "d'ennemis sans mourir.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 239,
+      "raw": "Le dieu de la Guerre continua à pourchasser l'assassin dont le maître inconnu tentait de provoquer l'hostilité de l'Olympe envers Kratos, mais Zeus ne pouvait plus tolérer ces massacres.   Le maître des dieux demanda à Ceryx de mettre fin à toute cette violence.",
+      "clean": "Le dieu de la Guerre continua à pourchasser l'assassin dont le maître inconnu tentait de provoquer l'hostilité de l'Olympe envers Kratos, mais Zeus ne pouvait plus tolérer ces massacres.   Le maître des dieux demanda à Ceryx de mettre fin à toute cette violence.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 240,
+      "raw": "Éluder",
+      "clean": "Éluder",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 241,
+      "raw": "Maximum",
+      "clean": "Maximum",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 242,
+      "raw": "^1Attaque ce mur fissuré et détruis-le.",
+      "clean": "Attaque ce mur fissuré et détruis-le.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 243,
+      "raw": "^3Kratos, tueur de dieux&!",
+      "clean": "Kratos, tueur de dieux&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "CERYX"
+    },
+    {
+      "index": 244,
+      "raw": "*Le fils d'Hermès fut massacré. Kratos, le fantôme de Sparte et tueur de dieux défia l'Olympe. La furie de Zeus s'abattra sur lui sans tarder.   ",
+      "clean": "Le fils d'Hermès fut massacré. Kratos, le fantôme de Sparte et tueur de dieux défia l'Olympe. La furie de Zeus s'abattra sur lui sans tarder.   ",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 245,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 246,
+      "raw": "Tués&: ",
+      "clean": "Tués&: ",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 247,
+      "raw": "^0Meurtrier d'Argos&! Quel est donc ton maître qui veut détourner les dieux de mon sort&?",
+      "clean": "Meurtrier d'Argos&! Quel est donc ton maître qui veut détourner les dieux de mon sort&?",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 248,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 249,
+      "raw": "^1Pendant que Kratos poursuivait l'assassin, Cerbère, le gardien des Enfers, bondit dans la bataille.",
+      "clean": "Pendant que Kratos poursuivait l'assassin, Cerbère, le gardien des Enfers, bondit dans la bataille.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 250,
+      "raw": "^0Hadès&! Tu as envoyé Cerbère pour m'arrêter, après les innombrables âmes que je t'ai envoyées&?!",
+      "clean": "Hadès&! Tu as envoyé Cerbère pour m'arrêter, après les innombrables âmes que je t'ai envoyées&?!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 251,
+      "raw": "^0Tes morts-vivants ne m'arrêteront pas, Hadès&! C'est toi qui essaies d'attirer la colère de l'Olympe sur moi&?",
+      "clean": "Tes morts-vivants ne m'arrêteront pas, Hadès&! C'est toi qui essaies d'attirer la colère de l'Olympe sur moi&?",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 252,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 253,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 254,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 255,
+      "raw": "^1Fonce dans la statue pour la prendre, puis appuie sur [ ou ] pour la pousser ou la tirer.",
+      "clean": "Fonce dans la statue pour la prendre, puis appuie sur [ ou ] pour la pousser ou la tirer.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 256,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 257,
+      "raw": "^3Kratos, je t'apporte un message de Zeus. Écoute bien mon message, fantôme de Sparte&! Ton avenir sur l'Olympe en dépend.",
+      "clean": "Kratos, je t'apporte un message de Zeus. Écoute bien mon message, fantôme de Sparte&! Ton avenir sur l'Olympe en dépend.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "CERYX"
+    },
+    {
+      "index": 258,
+      "raw": "^0Ceryx, messager de l'Olympe. Que veux-tu me dire&?",
+      "clean": "Ceryx, messager de l'Olympe. Que veux-tu me dire&?",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 259,
+      "raw": "^3Ces massacres doivent cesser, Kratos.  ",
+      "clean": "Ces massacres doivent cesser, Kratos.  ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "CERYX"
+    },
+    {
+      "index": 260,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 261,
+      "raw": "^0Fils d'Hermès, hors de mon chemin&!",
+      "clean": "Fils d'Hermès, hors de mon chemin&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 262,
+      "raw": "^0Qui ose me provoquer&? ",
+      "clean": "Qui ose me provoquer&? ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 263,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 264,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 265,
+      "raw": "^1Kratos venait de piéger Argos quand le géant tomba mort.  Le symbole de Kratos apparut sur son corps.  ",
+      "clean": "Kratos venait de piéger Argos quand le géant tomba mort.  Le symbole de Kratos apparut sur son corps.  ",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "NARRATOR_TUTORIAL"
+    },
+    {
+      "index": 266,
+      "raw": "^2Tu as vaincu le géant, Argos&!",
+      "clean": "Tu as vaincu le géant, Argos&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 267,
+      "raw": "^2Seigneur Kratos, le vainqueur&!",
+      "clean": "Seigneur Kratos, le vainqueur&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 268,
+      "raw": "^2Gloire et honneur au seigneur Kratos&!",
+      "clean": "Gloire et honneur au seigneur Kratos&!",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 269,
+      "raw": "^0Ceci n'est pas ma victoire.",
+      "clean": "Ceci n'est pas ma victoire.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 270,
+      "raw": "^2Pourtant ta marque est sur sa poitrine.",
+      "clean": "Pourtant ta marque est sur sa poitrine.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "SPARTAN_SOLDIER"
+    },
+    {
+      "index": 271,
+      "raw": "^0Ce n'est pas moi qui ai tué le géant.",
+      "clean": "Ce n'est pas moi qui ai tué le géant.",
+      "control_type": "DIALOGUE_OR_PROMPT",
+      "speaker": "KRATOS"
+    },
+    {
+      "index": 272,
+      "raw": "!",
+      "clean": "!",
+      "control_type": "END_DIALOGUE",
+      "speaker": null
+    },
+    {
+      "index": 273,
+      "raw": "*",
+      "clean": "",
+      "control_type": "END_BANNER_OR_CUTSCENE",
+      "speaker": null
+    },
+    {
+      "index": 274,
+      "raw": "Trahison",
+      "clean": "Trahison",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 275,
+      "raw": "Tueur",
+      "clean": "Tueur",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 276,
+      "raw": "Identification client existante.",
+      "clean": "Identification client existante.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 277,
+      "raw": "Ce nom existe déjà.",
+      "clean": "Ce nom existe déjà.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 278,
+      "raw": "Nom inacceptable.",
+      "clean": "Nom inacceptable.",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 279,
+      "raw": "La démo est terminée",
+      "clean": "La démo est terminée",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 280,
+      "raw": "Acheter le jeu&?",
+      "clean": "Acheter le jeu&?",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 281,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 282,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 283,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 284,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 285,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 286,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 287,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 288,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 289,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 290,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 291,
+      "raw": "",
+      "clean": "",
+      "control_type": "TEXT",
+      "speaker": null
+    },
+    {
+      "index": 292,
+      "raw": "Assistance Courriel&:\nsupport@spe.sony.com",
+      "clean": "Assistance Courriel&:\nsupport@spe.sony.com",
+      "control_type": "TEXT",
+      "speaker": null
+    }
+  ]
+}
