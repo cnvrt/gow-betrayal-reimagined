@@ -19,6 +19,7 @@ import PhaserCanvas from "./PhaserCanvas";
 
 export default function GameHost() {
   const [telemetry, setTelemetry] = useState<DebugTelemetry | null>(null);
+  const activeKeys = React.useRef(new Set<string>());
 
   useEffect(() => {
     return GameEvents.on<DebugTelemetry>(EVENT_TELEMETRY_UPDATE, (data) => {
@@ -30,15 +31,57 @@ export default function GameHost() {
   const currentAnimIdx = telemetry?.kratosAnimIndex ?? 0;
   const maxAnims = telemetry?.kratosTotalAnims ?? 122;
 
+  const updateGlobalInputState = () => {
+    if (typeof window !== "undefined") {
+      const keys = Array.from(activeKeys.current);
+      const actionMap: Record<string, number> = {
+        UP: 1,
+        LEFT: 2,
+        RIGHT: 5,
+        DOWN: 6,
+        ACTION: 8,
+        WEAPON: 27,
+        PAUSE: 29,
+      };
+      let heldMask = 0;
+      for (const k of keys) {
+        if (actionMap[k]) heldMask |= (1 << actionMap[k]);
+      }
+      (window as any).__GOW_INPUT_STATE__ = {
+        activeVirtualKeys: keys,
+        heldMask: heldMask,
+        pressedMask: keys.length > 0 ? 1 : 0,
+      };
+    }
+  };
+
   const bindHoldKey = (action: string) => ({
     onPointerDown: (e: React.PointerEvent) => {
       e.preventDefault();
+      activeKeys.current.add(action);
+      updateGlobalInputState();
       GameEvents.emit(EVENT_VIRTUAL_KEY_DOWN, action);
     },
-    onPointerUp: () => GameEvents.emit(EVENT_VIRTUAL_KEY_UP, action),
-    onPointerLeave: () => GameEvents.emit(EVENT_VIRTUAL_KEY_UP, action),
-    onPointerCancel: () => GameEvents.emit(EVENT_VIRTUAL_KEY_UP, action),
+    onPointerUp: () => {
+      activeKeys.current.delete(action);
+      updateGlobalInputState();
+      GameEvents.emit(EVENT_VIRTUAL_KEY_UP, action);
+    },
+    onPointerLeave: () => {
+      activeKeys.current.delete(action);
+      updateGlobalInputState();
+      GameEvents.emit(EVENT_VIRTUAL_KEY_UP, action);
+    },
+    onPointerCancel: () => {
+      activeKeys.current.delete(action);
+      updateGlobalInputState();
+      GameEvents.emit(EVENT_VIRTUAL_KEY_UP, action);
+    },
   });
+
+  const pulseKey = (action: string) => {
+    GameEvents.emit(EVENT_VIRTUAL_KEY, action);
+  };
 
   return (
     <main className="app-shell">
@@ -65,10 +108,37 @@ export default function GameHost() {
 
           {/* Virtual D-Pad & Action Controls for Mobile & Desktop */}
           <div className="virtual-pad-bar">
+            {/* Top Softkey Bar: WEAPON (LSK) & PAUSE (RSK) */}
+            <div className="softkey-bar" style={{ display: "flex", justifyContent: "space-between", width: "100%", marginBottom: "8px", gap: "8px" }}>
+              <button
+                type="button"
+                className="pad-btn"
+                data-testid="vk-WEAPON"
+                {...bindHoldKey("WEAPON")}
+                onClick={() => pulseKey("WEAPON")}
+                title="Cycle Weapon / Magic (X / K / *)"
+                style={{ flex: 1 }}
+              >
+                ★ WPN (*)
+              </button>
+              <button
+                type="button"
+                className="pad-btn pause-pulse-btn"
+                data-testid="vk-PAUSE"
+                {...bindHoldKey("PAUSE")}
+                onClick={() => pulseKey("PAUSE")}
+                title="Pause Game / Menu (P / Escape)"
+                style={{ flex: 1 }}
+              >
+                ⏸ PAUSE
+              </button>
+            </div>
+
             <div className="dpad-cluster">
               <button
                 type="button"
                 className="pad-btn"
+                data-testid="vk-UP"
                 {...bindHoldKey("UP")}
                 title="Jump / Double Jump / Climb Up (W / Up / 2)"
               >
@@ -78,6 +148,7 @@ export default function GameHost() {
                 <button
                   type="button"
                   className="pad-btn"
+                  data-testid="vk-LEFT"
                   {...bindHoldKey("LEFT")}
                   title="Run Left / Climb Turn (A / Left / 4)"
                 >
@@ -86,6 +157,7 @@ export default function GameHost() {
                 <button
                   type="button"
                   className="pad-btn action-btn"
+                  data-testid="vk-ACTION"
                   {...bindHoldKey("ACTION")}
                   title="Attack / Action (Space / Z / J / 5)"
                 >
@@ -94,6 +166,7 @@ export default function GameHost() {
                 <button
                   type="button"
                   className="pad-btn"
+                  data-testid="vk-RIGHT"
                   {...bindHoldKey("RIGHT")}
                   title="Run Right / Climb Turn (D / Right / 6)"
                 >
@@ -104,18 +177,11 @@ export default function GameHost() {
                 <button
                   type="button"
                   className="pad-btn"
+                  data-testid="vk-DOWN"
                   {...bindHoldKey("DOWN")}
                   title="Crouch / Open Chest / Pull Lever / Drop (S / Down / 8)"
                 >
                   ▼ DOWN (8)
-                </button>
-                <button
-                  type="button"
-                  className="pad-btn"
-                  onClick={() => GameEvents.emit(EVENT_VIRTUAL_KEY, "WEAPON")}
-                  title="Cycle Weapon / Magic (X / K / *)"
-                >
-                  ★ WPN (*)
                 </button>
               </div>
             </div>

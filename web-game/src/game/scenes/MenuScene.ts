@@ -72,33 +72,63 @@ export class MenuScene extends Phaser.Scene {
     this.rebuildMenuText();
 
     // Start title music loop
-    AudioManager.get().initAudio().then(() => {
-      AudioManager.get().playSlot(0);
+    AudioManager.getInstance().initAudio().then(() => {
+      AudioManager.getInstance().playSlot(0);
     });
 
-    this.input.keyboard?.on("keydown-UP", () => {
+    if (typeof window !== "undefined") {
+      (window as any).__GOW_TEST__ = {
+        getState: () => ({
+          scene: "MenuScene",
+          isPaused: false,
+          isGameOver: false,
+          isVictory: false,
+        }),
+      };
+    }
+
+    const onUp = () => {
       this.selectedIndex = (this.selectedIndex - 1 + this.menuItems.length) % this.menuItems.length;
-      AudioManager.get().playSfx("cursor");
+      AudioManager.getInstance().playSfx("cursor");
       this.rebuildMenuText();
-    });
-    this.input.keyboard?.on("keydown-DOWN", () => {
-      this.selectedIndex = (this.selectedIndex + 1) % this.menuItems.length;
-      AudioManager.get().playSfx("cursor");
-      this.rebuildMenuText();
-    });
-    this.input.keyboard?.on("keydown-ENTER", () => this.activateItem());
-    this.input.keyboard?.on("keydown-SPACE", () => this.activateItem());
+    };
 
-    this.cleanupBus = GameEvents.on<string>(EVENT_SELECT_SCENE, (targetScene) => {
+    const onDown = () => {
+      this.selectedIndex = (this.selectedIndex + 1) % this.menuItems.length;
+      AudioManager.getInstance().playSfx("cursor");
+      this.rebuildMenuText();
+    };
+
+    const onConfirm = () => {
+      this.activateItem();
+    };
+
+    this.input.keyboard?.on("keydown-UP", onUp);
+    this.input.keyboard?.on("keydown-DOWN", onDown);
+    this.input.keyboard?.on("keydown-ENTER", onConfirm);
+    this.input.keyboard?.on("keydown-SPACE", onConfirm);
+
+    const busUnsub1 = GameEvents.on<string>(EVENT_SELECT_SCENE, (targetScene) => {
       if (targetScene && targetScene !== "MenuScene") {
         this.scene.start(targetScene);
       }
     });
-    this.events.once("shutdown", () => this.cleanupBus?.());
+
+    const busUnsub2 = GameEvents.on<string>("EVENT_VIRTUAL_KEY" as any, (action: any) => {
+      if (action === "UP") onUp();
+      else if (action === "DOWN") onDown();
+      else if (action === "ACTION") onConfirm();
+    });
+
+    this.events.once("shutdown", () => {
+      busUnsub1();
+      busUnsub2();
+    });
   }
 
   private activateItem(): void {
-    AudioManager.get().playSfx("confirm");
+    AudioManager.getInstance().playSfx("confirm");
+    AudioManager.getInstance().stopSlot(0);
     const item = this.menuItems[this.selectedIndex];
     if (item.action === "arena") {
       this.scene.start("PlayScene", { levelResId: 9216 });

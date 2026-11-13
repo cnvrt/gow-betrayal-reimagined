@@ -1,5 +1,5 @@
 import * as Phaser from "phaser";
-import { MAX_TICK_MS, MIN_TICK_MS, NATIVE_HEIGHT, NATIVE_WIDTH } from "../constants";
+import { LEVEL_METADATA, MAX_TICK_MS, MIN_TICK_MS, NATIVE_HEIGHT, NATIVE_WIDTH } from "../constants";
 import { AssetRegistry } from "../systems/AssetRegistry";
 import { BitmapFontRenderer } from "../systems/BitmapFontRenderer";
 import { CameraController } from "../systems/CameraController";
@@ -64,7 +64,9 @@ export class PlayScene extends Phaser.Scene {
   private isVictory: boolean = false;
   private pauseMenuContainer?: Phaser.GameObjects.Container;
   private gameOverContainer?: Phaser.GameObjects.Container;
+  private victoryContainer?: Phaser.GameObjects.Container;
   private selectedPauseIdx: number = 0;
+  public tickCount: number = 0;
 
   private showHitboxes: boolean = true;
   private showCollisionGrid: boolean = false;
@@ -123,9 +125,17 @@ export class PlayScene extends Phaser.Scene {
     this.buildHud();
     this.setupInputs();
     this.setupEventBus();
+    this.setupTestHooks();
   }
 
   public loadLevel(levelResId: number): void {
+    this.isPaused = false;
+    this.isGameOver = false;
+    this.isVictory = false;
+    this.pauseMenuContainer?.setVisible(false);
+    this.gameOverContainer?.setVisible(false);
+    this.victoryContainer?.setVisible(false);
+
     const registry = AssetRegistry.get();
     const level = registry.levels.get(levelResId) ?? registry.levels.get(9217)!;
     this.currentLevelResId = level.res_id;
@@ -246,11 +256,74 @@ export class PlayScene extends Phaser.Scene {
       this.showDebugOverlay = !this.showDebugOverlay;
       this.debugHudText.setVisible(this.showDebugOverlay);
     });
+
+    // Pause toggle
     this.input.keyboard?.on("keydown-P", () => {
       this.togglePause();
     });
     this.input.keyboard?.on("keydown-ESCAPE", () => {
-      this.togglePause();
+      if (this.isGameOver || this.isVictory) {
+        this.goToMainMenu();
+      } else {
+        this.togglePause();
+      }
+    });
+
+    // Pause menu navigation
+    this.input.keyboard?.on("keydown-UP", () => {
+      if (this.isPaused) {
+        this.selectedPauseIdx = 0;
+        AudioManager.getInstance().playSfx("cursor");
+        this.renderPauseMenu();
+      }
+    });
+    this.input.keyboard?.on("keydown-W", () => {
+      if (this.isPaused) {
+        this.selectedPauseIdx = 0;
+        AudioManager.getInstance().playSfx("cursor");
+        this.renderPauseMenu();
+      }
+    });
+    this.input.keyboard?.on("keydown-DOWN", () => {
+      if (this.isPaused) {
+        this.selectedPauseIdx = 1;
+        AudioManager.getInstance().playSfx("cursor");
+        this.renderPauseMenu();
+      }
+    });
+    this.input.keyboard?.on("keydown-S", () => {
+      if (this.isPaused) {
+        this.selectedPauseIdx = 1;
+        AudioManager.getInstance().playSfx("cursor");
+        this.renderPauseMenu();
+      }
+    });
+
+    // Confirmation keys
+    this.input.keyboard?.on("keydown-SPACE", () => {
+      if (this.isPaused) {
+        this.confirmPauseSelection();
+      } else if (this.isGameOver) {
+        this.retryGame();
+      } else if (this.isVictory) {
+        this.nextChapter();
+      }
+    });
+    this.input.keyboard?.on("keydown-ENTER", () => {
+      if (this.isPaused) {
+        this.confirmPauseSelection();
+      } else if (this.isGameOver) {
+        this.retryGame();
+      } else if (this.isVictory) {
+        this.nextChapter();
+      }
+    });
+
+    // Main menu shortcut
+    this.input.keyboard?.on("keydown-M", () => {
+      if (this.isPaused || this.isGameOver || this.isVictory) {
+        this.goToMainMenu();
+      }
     });
   }
 
@@ -295,7 +368,39 @@ export class PlayScene extends Phaser.Scene {
           this.cameraController.panBy(delta.dx, delta.dy);
         }
       }),
-      GameEvents.on<string>(EVENT_VIRTUAL_KEY_DOWN, () => {
+      GameEvents.on<string>(EVENT_VIRTUAL_KEY_DOWN, (name) => {
+        if (this.isPaused) {
+          if (name === "UP") {
+            this.selectedPauseIdx = 0;
+            AudioManager.getInstance().playSfx("cursor");
+            this.renderPauseMenu();
+          } else if (name === "DOWN") {
+            this.selectedPauseIdx = 1;
+            AudioManager.getInstance().playSfx("cursor");
+            this.renderPauseMenu();
+          } else if (name === "ACTION") {
+            this.confirmPauseSelection();
+          } else if (name === "WEAPON") {
+            this.goToMainMenu();
+          }
+          return;
+        }
+        if (this.isGameOver) {
+          if (name === "ACTION") {
+            this.retryGame();
+          } else if (name === "WEAPON") {
+            this.goToMainMenu();
+          }
+          return;
+        }
+        if (this.isVictory) {
+          if (name === "ACTION") {
+            this.nextChapter();
+          } else if (name === "WEAPON") {
+            this.goToMainMenu();
+          }
+          return;
+        }
         this.manualAnimOverride = false;
         this.cameraController.freeLookMode = false;
       }),
@@ -303,6 +408,42 @@ export class PlayScene extends Phaser.Scene {
         // Handled by InputManager
       }),
       GameEvents.on<string>(EVENT_VIRTUAL_KEY, (action) => {
+        if (action === "PAUSE") {
+          this.togglePause();
+          return;
+        }
+        if (this.isPaused) {
+          if (action === "UP") {
+            this.selectedPauseIdx = 0;
+            AudioManager.getInstance().playSfx("cursor");
+            this.renderPauseMenu();
+          } else if (action === "DOWN") {
+            this.selectedPauseIdx = 1;
+            AudioManager.getInstance().playSfx("cursor");
+            this.renderPauseMenu();
+          } else if (action === "ACTION") {
+            this.confirmPauseSelection();
+          } else if (action === "WEAPON") {
+            this.goToMainMenu();
+          }
+          return;
+        }
+        if (this.isGameOver) {
+          if (action === "ACTION") {
+            this.retryGame();
+          } else if (action === "WEAPON") {
+            this.goToMainMenu();
+          }
+          return;
+        }
+        if (this.isVictory) {
+          if (action === "ACTION") {
+            this.nextChapter();
+          } else if (action === "WEAPON") {
+            this.goToMainMenu();
+          }
+          return;
+        }
         if (action === "NEXT_ANIM") {
           this.manualAnimOverride = true;
           this.kratos.player.setAnimation(this.kratos.player.animIndex + 1, true);
@@ -323,66 +464,202 @@ export class PlayScene extends Phaser.Scene {
     });
   }
 
-  private togglePause(): void {
-    if (this.isGameOver) return;
+  public togglePause(): void {
+    if (this.isGameOver || this.isVictory) return;
     this.isPaused = !this.isPaused;
-    AudioManager.get().playSfx("cursor");
+    AudioManager.getInstance().playSfx("cursor");
 
     if (this.isPaused) {
-      if (!this.pauseMenuContainer) {
-        this.pauseMenuContainer = this.add.container(0, 0).setScrollFactor(0).setDepth(90);
-      }
-      this.pauseMenuContainer.removeAll(true);
-      const bg = this.add.graphics();
-      bg.fillStyle(0x000000, 0.75);
-      bg.fillRect(0, 0, NATIVE_WIDTH, NATIVE_HEIGHT);
-      this.pauseMenuContainer.add(bg);
-
-      BitmapFontRenderer.renderText(this, 1032, "PAUSED", NATIVE_WIDTH / 2, 60, "center", this.pauseMenuContainer);
-      BitmapFontRenderer.renderText(this, 1031, "RESUME (P)", NATIVE_WIDTH / 2, 100, "center", this.pauseMenuContainer);
-      BitmapFontRenderer.renderText(this, 1031, "MAIN MENU", NATIVE_WIDTH / 2, 125, "center", this.pauseMenuContainer);
-      this.pauseMenuContainer.setVisible(true);
+      this.selectedPauseIdx = 0;
+      this.renderPauseMenu();
     } else if (this.pauseMenuContainer) {
       this.pauseMenuContainer.setVisible(false);
     }
   }
 
-  private triggerGameOver(): void {
+  public renderPauseMenu(): void {
+    if (!this.pauseMenuContainer) {
+      this.pauseMenuContainer = this.add.container(0, 0).setScrollFactor(0).setDepth(150);
+    }
+    this.pauseMenuContainer.removeAll(true);
+    const bg = this.add.graphics();
+    bg.fillStyle(0x000000, 0.85);
+    bg.fillRect(0, 0, NATIVE_WIDTH, NATIVE_HEIGHT);
+    this.pauseMenuContainer.add(bg);
+
+    BitmapFontRenderer.renderText(this, 1032, "PAUSED", NATIVE_WIDTH / 2, 55, "center", this.pauseMenuContainer);
+
+    const opt0 = this.selectedPauseIdx === 0 ? "> RESUME (P)" : "  RESUME (P)";
+    const opt1 = this.selectedPauseIdx === 1 ? "> MAIN MENU (M)" : "  MAIN MENU (M)";
+
+    BitmapFontRenderer.renderText(
+      this,
+      this.selectedPauseIdx === 0 ? 1032 : 1031,
+      opt0,
+      NATIVE_WIDTH / 2,
+      100,
+      "center",
+      this.pauseMenuContainer
+    );
+    BitmapFontRenderer.renderText(
+      this,
+      this.selectedPauseIdx === 1 ? 1032 : 1031,
+      opt1,
+      NATIVE_WIDTH / 2,
+      125,
+      "center",
+      this.pauseMenuContainer
+    );
+    this.pauseMenuContainer.setVisible(true);
+  }
+
+  public confirmPauseSelection(): void {
+    if (!this.isPaused) return;
+    AudioManager.getInstance().playSfx("confirm");
+    if (this.selectedPauseIdx === 0) {
+      this.togglePause();
+    } else {
+      this.goToMainMenu();
+    }
+  }
+
+  public triggerGameOver(): void {
     if (this.isGameOver) return;
     this.isGameOver = true;
-    AudioManager.get().playSfx("grunt");
+    AudioManager.getInstance().playSfx("grunt");
 
     if (!this.gameOverContainer) {
-      this.gameOverContainer = this.add.container(0, 0).setScrollFactor(0).setDepth(95);
+      this.gameOverContainer = this.add.container(0, 0).setScrollFactor(0).setDepth(160);
     }
     this.gameOverContainer.removeAll(true);
     const bg = this.add.graphics();
-    bg.fillStyle(0x400000, 0.85);
+    bg.fillStyle(0x400000, 0.88);
     bg.fillRect(0, 0, NATIVE_WIDTH, NATIVE_HEIGHT);
     this.gameOverContainer.add(bg);
 
-    BitmapFontRenderer.renderText(this, 1032, "YOU ARE DEAD", NATIVE_WIDTH / 2, 70, "center", this.gameOverContainer);
-    BitmapFontRenderer.renderText(this, 1031, "RETRY (SPACE)", NATIVE_WIDTH / 2, 110, "center", this.gameOverContainer);
-    BitmapFontRenderer.renderText(this, 1031, "MAIN MENU (M)", NATIVE_WIDTH / 2, 135, "center", this.gameOverContainer);
+    BitmapFontRenderer.renderText(this, 1032, "YOU ARE DEAD", NATIVE_WIDTH / 2, 65, "center", this.gameOverContainer);
+    BitmapFontRenderer.renderText(this, 1032, "> RETRY (SPACE / ACT)", NATIVE_WIDTH / 2, 110, "center", this.gameOverContainer);
+    BitmapFontRenderer.renderText(this, 1031, "  MAIN MENU (M / WPN)", NATIVE_WIDTH / 2, 135, "center", this.gameOverContainer);
     this.gameOverContainer.setVisible(true);
+  }
 
-    const onRetry = (e: KeyboardEvent) => {
-      if (e.code === "Space" || e.code === "Enter") {
-        window.removeEventListener("keydown", onRetry);
-        this.gameOverContainer?.setVisible(false);
-        this.isGameOver = false;
-        this.loadLevel(this.currentLevelResId);
-      } else if (e.code === "KeyM" || e.code === "Escape") {
-        window.removeEventListener("keydown", onRetry);
-        this.scene.start("MenuScene");
-      }
+  public retryGame(): void {
+    if (!this.isGameOver) return;
+    this.isGameOver = false;
+    this.gameOverContainer?.setVisible(false);
+    if (this.kratos) {
+      this.kratos.hn = 1024;
+      this.kratos.hq = 1024;
+    }
+    this.loadLevel(this.currentLevelResId);
+  }
+
+  public triggerVictory(): void {
+    if (this.isVictory) return;
+    this.isVictory = true;
+    AudioManager.getInstance().playSfx("fanfare");
+
+    if (!this.victoryContainer) {
+      this.victoryContainer = this.add.container(0, 0).setScrollFactor(0).setDepth(200);
+    }
+    this.victoryContainer.removeAll(true);
+    const bg = this.add.graphics();
+    bg.fillStyle(0x0a1020, 0.92);
+    bg.fillRect(0, 0, NATIVE_WIDTH, NATIVE_HEIGHT);
+    this.victoryContainer.add(bg);
+
+    const totalOrbs = this.progressionManager ? this.progressionManager.totalRedOrbs : (this.kratos ? this.kratos.hu : 0);
+    BitmapFontRenderer.renderText(this, 1032, "VICTORY", NATIVE_WIDTH / 2, 45, "center", this.victoryContainer);
+    BitmapFontRenderer.renderText(this, 1031, "CHAPTER COMPLETE", NATIVE_WIDTH / 2, 70, "center", this.victoryContainer);
+    BitmapFontRenderer.renderText(this, 1031, "ORBS COLLECTED: " + totalOrbs, NATIVE_WIDTH / 2, 95, "center", this.victoryContainer);
+    BitmapFontRenderer.renderText(this, 1032, "> NEXT CHAPTER (SPACE / ACT)", NATIVE_WIDTH / 2, 130, "center", this.victoryContainer);
+    BitmapFontRenderer.renderText(this, 1031, "  MAIN MENU (M / WPN)", NATIVE_WIDTH / 2, 155, "center", this.victoryContainer);
+    this.victoryContainer.setVisible(true);
+  }
+
+  public nextChapter(): void {
+    if (!this.isVictory) return;
+    this.isVictory = false;
+    this.victoryContainer?.setVisible(false);
+    const curIdx = LEVEL_METADATA.findIndex((l) => l.resId === this.currentLevelResId);
+    const nextIdx = curIdx >= 0 ? (curIdx + 1) % LEVEL_METADATA.length : 0;
+    const nextResId = LEVEL_METADATA[nextIdx].resId;
+    this.loadLevel(nextResId);
+  }
+
+  public goToMainMenu(): void {
+    this.isPaused = false;
+    this.isGameOver = false;
+    this.isVictory = false;
+    this.pauseMenuContainer?.setVisible(false);
+    this.gameOverContainer?.setVisible(false);
+    this.victoryContainer?.setVisible(false);
+    this.scene.start("MenuScene");
+  }
+
+  private setupTestHooks(): void {
+    (window as any).__GOW_TEST__ = {
+      getState: () => ({
+        scene: "PlayScene",
+        levelResId: this.currentLevelResId,
+        isPaused: this.isPaused,
+        isGameOver: this.isGameOver,
+        isVictory: this.isVictory,
+        selectedPauseIdx: this.selectedPauseIdx,
+        tickCount: this.tickCount,
+        kratos: {
+          x: this.kratos ? this.kratos.ge : 0,
+          y: this.kratos ? this.kratos.gf : 0,
+          hp: this.kratos ? this.kratos.hn : 0,
+          maxHp: this.kratos ? this.kratos.hq : 1024,
+          state: this.kratos ? this.kratos.hE : 0,
+          orbs: this.progressionManager ? this.progressionManager.totalRedOrbs : 0,
+        },
+        enemies: this.enemyManager
+          ? this.enemyManager.enemies.map((e) => ({
+              id: (e as any).id ?? 0,
+              x: e.x,
+              y: e.y,
+              hp: e.hp,
+              state: (e as any).state ?? 0,
+              isBoss: (e as any).isBoss ?? false,
+            }))
+          : [],
+      }),
+      damageKratos: (amount: number) => {
+        if (!this.kratos) return;
+        this.kratos.applyDamage(amount);
+        AudioManager.getInstance().playSfx("hit");
+        if (this.kratos.hn <= 0) {
+          this.kratos.setState(52);
+          this.triggerGameOver();
+        }
+      },
+      triggerVictory: () => {
+        this.triggerVictory();
+      },
+      spawnTestOrb: () => {
+        if (!this.kratos) return;
+        this.orbManager.spawnChestOrbs(0, this.kratos.ge, this.kratos.gf, 10);
+      },
+      togglePause: () => {
+        this.togglePause();
+      },
+      selectPauseItem: (idx: number) => {
+        this.selectedPauseIdx = idx;
+        this.renderPauseMenu();
+      },
+      confirmPause: () => {
+        this.confirmPauseSelection();
+      },
     };
-    window.addEventListener("keydown", onRetry);
   }
 
   update(_time: number, delta: number): void {
-    if (this.isPaused || this.isGameOver) return;
+    if (this.isPaused || this.isGameOver || this.isVictory) return;
+    this.tickCount++;
     const dtMs = Math.min(MAX_TICK_MS, Math.max(MIN_TICK_MS, delta));
+    const lvl = this.levelRenderer.level;
 
     // 1. Sample keyboard & virtual keypad inputs (`s` and `t`)
     this.inputManager.update();
@@ -414,6 +691,24 @@ export class PlayScene extends Phaser.Scene {
       this.levelRenderer.renderDebugCollisionGrid(true);
     }
 
+    // Check Victory conditions
+    if (lvl) {
+      const bossEnemy = this.enemyManager.enemies.find((e: any) => e.isBoss);
+      if (bossEnemy && (!bossEnemy.alive || bossEnemy.hp <= 0)) {
+        this.triggerVictory();
+        return;
+      }
+      const rightEdge = (lvl.dimensions.width_tiles - 3) * 16;
+      if (
+        this.enemyManager.enemies.length > 0 &&
+        this.enemyManager.enemies.every((e) => !e.alive || e.hp <= 0) &&
+        this.kratos.ge >= rightEdge
+      ) {
+        this.triggerVictory();
+        return;
+      }
+    }
+
     // 3b. Advance Enemy AI, Attacks & Hurtbox collisions
     this.enemyManager.update(
       dtMs,
@@ -421,8 +716,8 @@ export class PlayScene extends Phaser.Scene {
       this.kratos.gf,
       this.kratos.gH,
       (dmg, fromRight) => {
-        this.kratos.hn = Math.max(0, this.kratos.hn - dmg);
-        AudioManager.get().playSfx("hit");
+        this.kratos.applyDamage(dmg);
+        AudioManager.getInstance().playSfx("hit");
         if (this.kratos.hn <= 0) {
           this.kratos.setState(52); // Death fall
           this.triggerGameOver();
@@ -567,7 +862,6 @@ export class PlayScene extends Phaser.Scene {
     }
 
     // 7. Update compact on-canvas debug bar & React inspector telemetry
-    const lvl = this.levelRenderer.level;
     const kf = this.kratos.player.getCurrentKeyframe();
     const cf = this.kratos.player.getCurrentCompositeFrame();
     if (this.showDebugOverlay && lvl) {

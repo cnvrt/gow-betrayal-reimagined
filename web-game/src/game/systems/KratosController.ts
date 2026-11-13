@@ -4,6 +4,7 @@ import { CameraController } from "./CameraController";
 import { CompositeAnimPlayer } from "./CompositeAnimPlayer";
 import { InputManager } from "./InputManager";
 import { LevelRenderer } from "./LevelRenderer";
+import { AudioManager } from "./AudioManager";
 
 const KRATOS_STATE_NAMES: Record<number, string> = {
   0: "IDLE",
@@ -136,6 +137,39 @@ export class KratosController {
   public gM: number = 0; // Combo display timer (ms)
   public hu: number = 0; // Red orbs collected in chapter
 
+  // Attack swing toggle counter for authentic slash1/slash2 alternation
+  public attackSwingCount: number = 0;
+
+  public get state(): number {
+    return this.hE;
+  }
+
+  public set state(val: number) {
+    this.setState(val);
+  }
+
+  public get x(): number {
+    return this.ge;
+  }
+
+  public set x(val: number) {
+    this.ge = val;
+    this.player?.setPosition(this.ge, this.gf);
+  }
+
+  public get y(): number {
+    return this.gf;
+  }
+
+  public set y(val: number) {
+    this.gf = val;
+    this.player?.setPosition(this.ge, this.gf);
+  }
+
+  public applyDamage(dmg: number): void {
+    this.hn = Math.max(0, this.hn - dmg);
+  }
+
   // Pushable box index (`gh` in e.java)
   public gh: number = -1;
 
@@ -219,7 +253,28 @@ export class KratosController {
    * and starts the corresponding animation sequence on Bank `28672`.
    */
   public setState(var1: number): void {
+    const prevState = this.hE;
     this.hE = var1;
+
+    // Trigger attack swing SFX (slash1 / slash2 alternating) when Kratos enters an attack state:
+    // Support states 5, 7, 8, 14 as well as standard attack states (54..66, 67..75, 47, 36, 94, 95)
+    const isAttackState =
+      var1 === 5 ||
+      var1 === 7 ||
+      var1 === 8 ||
+      var1 === 14 ||
+      (var1 >= 54 && var1 <= 66) ||
+      (var1 >= 67 && var1 <= 75) ||
+      var1 === 47 ||
+      var1 === 36 ||
+      var1 === 94 ||
+      var1 === 95;
+
+    if (isAttackState && prevState !== var1) {
+      const sfx = this.attackSwingCount % 2 === 0 ? "slash1" : "slash2";
+      this.attackSwingCount++;
+      AudioManager.getInstance().playSfx(sfx);
+    }
     if (var1 === 3 && this.hF !== 3) {
       var1 = 4;
     }

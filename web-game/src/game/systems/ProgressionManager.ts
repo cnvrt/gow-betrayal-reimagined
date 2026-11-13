@@ -21,6 +21,12 @@ export class ProgressionManager {
   public maxMagic: number = 1024;
   public currentMagic: number = 1024;
   public redOrbs: number = 0;
+  public get totalRedOrbs(): number {
+    return this.redOrbs;
+  }
+  public set totalRedOrbs(val: number) {
+    this.redOrbs = val;
+  }
   public careerOrbs: number = 0;
   public gorgonEyesCount: number = 0;
   public phoenixFeathersCount: number = 0;

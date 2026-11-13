@@ -186,6 +186,26 @@ export class InputManager {
     else if (activeActions.has(27)) this.t = 27;
     else if (activeActions.has(29)) this.t = 29;
     else this.t = 0;
+
+    if (typeof window !== "undefined") {
+      const reverse: Record<number, string> = {
+        1: "UP",
+        2: "LEFT",
+        5: "RIGHT",
+        6: "DOWN",
+        8: "ACTION",
+        27: "WEAPON",
+        29: "PAUSE",
+        3: "POWERUP",
+      };
+      (window as any).__GOW_INPUT_STATE__ = {
+        s: this.s,
+        t: this.t,
+        heldMask: this.t,
+        pressedMask: this.s,
+        activeVirtualKeys: Array.from(this.heldVirtual).map((code) => reverse[code] || String(code)),
+      };
+    }
   }
 
   public update(): void {
